@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "980BD776-77F5-4921-8682-3565BA3C6079"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F3A2EFA-3D8F-489D-B43B-6077A87CE17A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/NewlyExperienceDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "showInfoOnUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A690AF81-F578-4279-B1A6-66ABA227F9D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/FilterClasses/FilterResultsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F215A6CF-30C7-468C-8B90-E236AF8E1187"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "fetchCurrentLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C1D5496-9FDF-48B8-929D-D2C24F67EAEF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "fetchCurrentLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CE0A49C-CDEB-47C7-A21F-9730D0EF00D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D521A2C-A2B4-4329-AA00-CA7CEF541025"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AA7FD51-CAF5-48A0-9150-0838148980D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "viewControllerForSelectedSegmentIndex(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3AA7FD51-CAF5-48A0-9150-0838148980D1 - 1e5ba377ddd1ace8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iphoneteam/Documents/GitHub/Blist-IOS/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "3AA7FD51-CAF5-48A0-9150-0838148980D1 - 9eb7ec9283eba395"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewControllerForSelectedSegmentIndex(Swift.Int) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iphoneteam/Documents/GitHub/Blist-IOS/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "1116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1852281-94E5-4536-A608-EFA419090B49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1852281-94E5-4536-A608-EFA419090B49 - d53784549e551dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iphoneteam/Documents/GitHub/Blist-IOS/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "3496">
+               </Location>
+               <Location
+                  uuid = "B1852281-94E5-4536-A608-EFA419090B49 - d53784549e551dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iphoneteam/Documents/GitHub/Blist-IOS/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "B1852281-94E5-4536-A608-EFA419090B49 - d53784549e551dce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iphoneteam/Documents/GitHub/Blist-IOS/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

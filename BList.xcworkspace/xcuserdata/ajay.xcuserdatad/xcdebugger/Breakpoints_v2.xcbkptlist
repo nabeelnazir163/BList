@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "45A2EEB8-5135-47B6-BDE5-AB7BB53C2D06"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D18EE5B9-95EA-461B-AA7E-98CD554E12DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/Model/NetworkManager/ApiEndPintManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "501"
+            endingLineNumber = "501"
+            landmarkName = "otherFilter(creator_type:creatorId:keyword:location:latitude:longitude:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D18EE5B9-95EA-461B-AA7E-98CD554E12DA - e2f4f3e66f35a4ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.NetworkManager.otherFilter(creator_type: Swift.String, creatorId: Swift.String, keyword: Swift.String, location: Swift.String, latitude: Swift.String, longitude: Swift.String, completion: (Swift.Result&lt;BList.FilterResultsResponseModel, BList.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/Model/NetworkManager/ApiEndPintManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "502"
+                  endingLineNumber = "502"
+                  offsetFromSymbolStart = "1202">
+               </Location>
+               <Location
+                  uuid = "D18EE5B9-95EA-461B-AA7E-98CD554E12DA - e2f4f3e66f35a48f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.NetworkManager.otherFilter(creator_type: Swift.String, creatorId: Swift.String, keyword: Swift.String, location: Swift.String, latitude: Swift.String, longitude: Swift.String, completion: (Swift.Result&lt;BList.FilterResultsResponseModel, BList.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/Model/NetworkManager/ApiEndPintManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "501"
+                  endingLineNumber = "501"
+                  offsetFromSymbolStart = "806">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2679F65-BF03-4449-B945-F99F165881E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/Cells/ExperienceCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "configureCell(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6B170B9-367F-44F0-8A51-9112576E6910"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/Authentication/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "actionSocialLogin(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C6B170B9-367F-44F0-8A51-9112576E6910 - d59ad8bda66520b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.LoginVC.actionSocialLogin(__C.UIButton) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/Authentication/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "C6B170B9-367F-44F0-8A51-9112576E6910 - d59ad8bda66520b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.LoginVC.actionSocialLogin(__C.UIButton) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/Authentication/LoginVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "290">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD0C7B91-E857-469E-9725-9C91F6D5A1EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/Authentication/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "actionSocialLogin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C73B50F7-A2BF-4241-8B4B-E807CD0C2FDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/Model/NetworkManager/ApiEndPintManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "socialLogin(social_type:social_id:fname:lname:email:creator_type:role:gender:dob:phone:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E631734A-E412-4F71-BA2A-719591FE68E5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/Authentication/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E283A66-5882-4173-9640-BF3A819CFAAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/ViewModel/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "socialLogin(type:social_id:userType:creator_type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2E283A66-5882-4173-9640-BF3A819CFAAF - 3a1b09999fb5f95a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;BList.UserModel, BList.APIError&gt;) -&gt; () in BList.AuthViewModel.socialLogin(type: BList.SignUpType, social_id: Swift.String, userType: BList.UserType, creator_type: BList.CreatorType) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "327"
+                  endingLineNumber = "327"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "2E283A66-5882-4173-9640-BF3A819CFAAF - 3a1b09999fb5f95a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;BList.UserModel, BList.APIError&gt;) -&gt; () in BList.AuthViewModel.socialLogin(type: BList.SignUpType, social_id: Swift.String, userType: BList.UserType, creator_type: BList.CreatorType) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "327"
+                  endingLineNumber = "327"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "2E283A66-5882-4173-9640-BF3A819CFAAF - 3a1b09999fb5f939"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;BList.UserModel, BList.APIError&gt;) -&gt; () in BList.AuthViewModel.socialLogin(type: BList.SignUpType, social_id: Swift.String, userType: BList.UserType, creator_type: BList.CreatorType) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "328"
+                  endingLineNumber = "328"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "435CBC56-5EB5-4998-862C-6695CF37107B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "435CBC56-5EB5-4998-862C-6695CF37107B - 8730ea9d4015bec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  uuid = "435CBC56-5EB5-4998-862C-6695CF37107B - 8730ea9d4015bec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "339">
+               </Location>
+               <Location
+                  uuid = "435CBC56-5EB5-4998-862C-6695CF37107B - 8730ea9d4015bec5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "245">
+               </Location>
+               <Location
+                  uuid = "435CBC56-5EB5-4998-862C-6695CF37107B - 3f2448c39ec6035d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "appendLocationNameComponent(value: Swift.String) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7576DEAF-2968-4116-9D4C-532EECF251EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7576DEAF-2968-4116-9D4C-532EECF251EE - 8730ea9d4015bf7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "1609">
+               </Location>
+               <Location
+                  uuid = "7576DEAF-2968-4116-9D4C-532EECF251EE - 8730ea9d4015bf7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.ExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/Experience/ExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "1126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DDB4CFC-9112-4E64-92FE-7A0A43C386FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/AllCategoryVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "updatedLocation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73D8E242-7037-428B-9A5D-D5FAA49D2016"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/ExperiencesBasedOnCategoryVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E754F928-9B11-49FE-A255-68780375B751"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/Creator/CreatorExperience/CreatorExperienceTabVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E754F928-9B11-49FE-A255-68780375B751 - 7dc0e6cdee7cc6b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.CreatorExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/Creator/CreatorExperience/CreatorExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "272"
+                  endingLineNumber = "272"
+                  offsetFromSymbolStart = "165">
+               </Location>
+               <Location
+                  uuid = "E754F928-9B11-49FE-A255-68780375B751 - 91231e4f86031298"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.GMSAddressComponent) -&gt; Swift.Bool in BList.CreatorExperienceTabVC.viewController(_: __C.GMSAutocompleteViewController, didAutocompleteWith: __C.GMSPlace) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/Creator/CreatorExperience/CreatorExperienceTabVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "273"
+                  endingLineNumber = "273"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "027A719B-CCA8-4FB8-A6ED-F12D01A2C011"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/BListBoard/UBlistBoardVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "528F4315-1B03-471A-BBB5-F8964F998AD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/BListBoard/BBoardPostDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setUpScreenContent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA6E6E1C-9838-41C5-940D-F702AFDB820B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/BListBoard/BBoardPostDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "configureCell(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA6E6E1C-9838-41C5-940D-F702AFDB820B - e8b5c90eab378b9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.PostDetailCommentTableCell.configureCell(with: BList.PostDetails) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/BListBoard/BBoardPostDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "1803">
+               </Location>
+               <Location
+                  uuid = "EA6E6E1C-9838-41C5-940D-F702AFDB820B - e8b5c90eab378b9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.PostDetailCommentTableCell.configureCell(with: BList.PostDetails) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/View/User/BListBoard/BBoardPostDetailVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "182"
+                  endingLineNumber = "182"
+                  offsetFromSymbolStart = "1819">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "900F6A65-F210-4B87-9176-E1AF73D5C7A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/User/Experience/NewlyExperienceDetail.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49A7A8F4-78A2-4115-9806-8FDC66B47E35"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
+            landmarkName = "getExperienceDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FB3F80C-090A-4011-81B2-E963A9803629"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "420"
+            endingLineNumber = "420"
+            landmarkName = "getExperienceDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1FB3F80C-090A-4011-81B2-E963A9803629 - 89f2fd3fa546a679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async throws -&gt; () in closure #1 (Swift.Result&lt;BList.ExperienceDetailModel, BList.APIError&gt;) -&gt; () in BList.UserViewModel.getExperienceDetail() -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "420"
+                  endingLineNumber = "420"
+                  offsetFromSymbolStart = "1629">
+               </Location>
+               <Location
+                  uuid = "1FB3F80C-090A-4011-81B2-E963A9803629 - 89f2fd3fa546a679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async throws -&gt; () in closure #1 (Swift.Result&lt;BList.ExperienceDetailModel, BList.APIError&gt;) -&gt; () in BList.UserViewModel.getExperienceDetail() -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "420"
+                  endingLineNumber = "420"
+                  offsetFromSymbolStart = "1481">
+               </Location>
+               <Location
+                  uuid = "1FB3F80C-090A-4011-81B2-E963A9803629 - 89f2fd3fa546a679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async throws -&gt; () in closure #1 (Swift.Result&lt;BList.ExperienceDetailModel, BList.APIError&gt;) -&gt; () in BList.UserViewModel.getExperienceDetail() -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "420"
+                  endingLineNumber = "420"
+                  offsetFromSymbolStart = "1455">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0ADBE09D-3CF7-44B6-AD75-A2AB9737CFC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "409"
+            endingLineNumber = "409"
+            landmarkName = "getExperienceDetail()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E04EDD7-9C50-4B14-8170-295AF13D8088"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/ViewModel/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "413"
+            endingLineNumber = "413"
+            landmarkName = "getExperienceDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E04EDD7-9C50-4B14-8170-295AF13D8088 - 89f2fd3fa546a796"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async throws -&gt; () in closure #1 (Swift.Result&lt;BList.ExperienceDetailModel, BList.APIError&gt;) -&gt; () in BList.UserViewModel.getExperienceDetail() -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "413"
+                  endingLineNumber = "413"
+                  offsetFromSymbolStart = "434">
+               </Location>
+               <Location
+                  uuid = "0E04EDD7-9C50-4B14-8170-295AF13D8088 - 89f2fd3fa546a796"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async throws -&gt; () in closure #1 (Swift.Result&lt;BList.ExperienceDetailModel, BList.APIError&gt;) -&gt; () in BList.UserViewModel.getExperienceDetail() -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "413"
+                  endingLineNumber = "413"
+                  offsetFromSymbolStart = "518">
+               </Location>
+               <Location
+                  uuid = "0E04EDD7-9C50-4B14-8170-295AF13D8088 - 89f2fd3fa546a796"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async throws -&gt; () in closure #1 (Swift.Result&lt;BList.ExperienceDetailModel, BList.APIError&gt;) -&gt; () in BList.UserViewModel.getExperienceDetail() -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/ViewModel/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "413"
+                  endingLineNumber = "413"
+                  offsetFromSymbolStart = "352">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F7F82CB-B0DD-4153-9D99-9D2022CE41B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/Model/NetworkManager/ApiEndPintManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "479"
+            endingLineNumber = "479"
+            landmarkName = "filter(type:creator_type:min_price:max_price:date:location:experience_type:time:before_time:after_time:latitudes:longitudes:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F7F82CB-B0DD-4153-9D99-9D2022CE41B5 - ce2934d814046fd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.NetworkManager.filter(type: Swift.String, creator_type: Swift.String, min_price: Swift.String, max_price: Swift.String, date: Swift.String, location: Swift.String, experience_type: Swift.String, time: Swift.Bool, before_time: Swift.String, after_time: Swift.String, latitudes: Swift.String, longitudes: Swift.String, completion: (Swift.Result&lt;BList.FilterResultsResponseModel, BList.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/Model/NetworkManager/ApiEndPintManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "479"
+                  endingLineNumber = "479"
+                  offsetFromSymbolStart = "997">
+               </Location>
+               <Location
+                  uuid = "1F7F82CB-B0DD-4153-9D99-9D2022CE41B5 - ce2934d814046fd6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BList.NetworkManager.filter(type: Swift.String, creator_type: Swift.String, min_price: Swift.String, max_price: Swift.String, date: Swift.String, location: Swift.String, experience_type: Swift.String, time: Swift.Bool, before_time: Swift.String, after_time: Swift.String, latitudes: Swift.String, longitudes: Swift.String, completion: (Swift.Result&lt;BList.FilterResultsResponseModel, BList.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "BList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ajay/Documents/GitHub/Blist/BList/Model/NetworkManager/ApiEndPintManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "479"
+                  endingLineNumber = "479"
+                  offsetFromSymbolStart = "762">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A059DD6-2DB8-4EB2-89A3-2882CBC2A27E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/View/Creator/DescribeYourExperienceVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "viewController(_:didAutocompleteWith:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "051B6804-1ED5-4E59-A186-1D9958C8B74C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BList/Helper/Alert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "presentAlert(alert:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

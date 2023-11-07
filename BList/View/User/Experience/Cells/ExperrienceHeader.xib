@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cabin-Regular.ttf">
+            <string>Cabin-Regular</string>
+        </array>
+        <array key="Salsa-Regular.ttf">
+            <string>Salsa-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="ExperrienceHeader" customModule="BList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blist Featured" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vn5-nq-NEC">
+                    <rect key="frame" x="20" y="-0.5" width="125.5" height="25"/>
+                    <fontDescription key="fontDescription" name="Salsa-Regular" family="Salsa" pointSize="20"/>
+                    <color key="textColor" name="#252634_"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yxl-W9-EDi" customClass="AnimatableButton" customModule="IBAnimatable">
+                    <rect key="frame" x="349" y="-0.5" width="40" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Lvk-T0-i1d"/>
+                        <constraint firstAttribute="width" constant="40" id="a4b-cd-jCx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="13"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="See all">
+                        <color key="titleColor" name="#F96A27"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vn5-nq-NEC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="46r-sm-Rxu"/>
+                <constraint firstItem="Yxl-W9-EDi" firstAttribute="centerY" secondItem="vn5-nq-NEC" secondAttribute="centerY" id="7oW-fw-K3A"/>
+                <constraint firstItem="vn5-nq-NEC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-8" id="lZZ-Wa-Ocq"/>
+                <constraint firstAttribute="trailing" secondItem="Yxl-W9-EDi" secondAttribute="trailing" constant="25" id="rar-DT-Iow"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_seeAll" destination="Yxl-W9-EDi" id="EJj-HK-Ydl"/>
+                <outlet property="lbl_title" destination="vn5-nq-NEC" id="ZHV-hu-JX7"/>
+            </connections>
+            <point key="canvasLocation" x="119" y="81"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="Yxl-W9-EDi">
+            <size key="intrinsicContentSize" width="37" height="28"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="#252634_">
+            <color red="0.14499999582767487" green="0.14900000393390656" blue="0.20399999618530273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="#F96A27">
+            <color red="0.97647058823529409" green="0.41568627450980394" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

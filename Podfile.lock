@@ -1,0 +1,54 @@
+PODS:
+  - DropDown (2.3.13)
+  - FBAEMKit (16.1.0):
+    - FBSDKCoreKit_Basics (= 16.1.0)
+  - FBSDKCoreKit (16.1.0):
+    - FBAEMKit (= 16.1.0)
+    - FBSDKCoreKit_Basics (= 16.1.0)
+  - FBSDKCoreKit_Basics (16.1.0)
+  - FBSDKLoginKit (16.1.0):
+    - FBSDKCoreKit (= 16.1.0)
+  - FloatRatingView (4.0)
+  - FSCalendar (2.8.4)
+  - GooglePlaces (7.1.0)
+  - GrowingTextView (0.7.2)
+  - IQKeyboardManagerSwift (6.5.11)
+
+DEPENDENCIES:
+  - DropDown
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FloatRatingView (~> 4)
+  - FSCalendar
+  - GooglePlaces (= 7.1.0)
+  - GrowingTextView (= 0.7.2)
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - FloatRatingView
+    - FSCalendar
+    - GooglePlaces
+    - GrowingTextView
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FBAEMKit: c7efe06720a8b15b1d25b68921ba46dee20996e0
+  FBSDKCoreKit: ca77d40d46786157b7b31ad3516f5ad9c2315339
+  FBSDKCoreKit_Basics: d39c3361379def7297bf76738cdd4fd2e0eb1a68
+  FBSDKLoginKit: 8fa1a0e3be1c9e8ae6df522844235a05cb03d835
+  FloatRatingView: bb6bdddfbeec51b1d387b4bd50abc27b4dfccd48
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  GooglePlaces: 187946335ec3dc624de71c0a9ddcc712f19b0ee1
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+
+PODFILE CHECKSUM: aa3744829e6e35d793ac4e41eb384c15aab958ed
+
+COCOAPODS: 1.12.1
