@@ -1805,7 +1805,7 @@ Become A Part Of You  Somehow</string>
                                                                     <rect key="frame" x="0.0" y="112.5" width="237" height="28"/>
                                                                     <subviews>
                                                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="368-95-iIF">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="121" height="28"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="114.5" height="28"/>
                                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                             <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="qjb-sF-RVd">
                                                                                 <size key="itemSize" width="128" height="128"/>
@@ -1873,7 +1873,7 @@ Become A Part Of You  Somehow</string>
                                                                             </cells>
                                                                         </collectionView>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0e-UB-sdi">
-                                                                            <rect key="frame" x="131" y="0.0" width="106" height="28"/>
+                                                                            <rect key="frame" x="124.5" y="0.0" width="112.5" height="28"/>
                                                                             <subviews>
                                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="notification_img" translatesAutoresizingMaskIntoConstraints="NO" id="2VZ-VB-Yen" customClass="AnimatableImageView" customModule="IBAnimatable">
                                                                                     <rect key="frame" x="0.0" y="2.5" width="23" height="23"/>
@@ -1886,7 +1886,7 @@ Become A Part Of You  Somehow</string>
                                                                                     </userDefinedRuntimeAttributes>
                                                                                 </imageView>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="749" text="Philipp Lansing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dRY-vt-MTo">
-                                                                                    <rect key="frame" x="30" y="7" width="76" height="14"/>
+                                                                                    <rect key="frame" x="30" y="7" width="82.5" height="14"/>
                                                                                     <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="12"/>
                                                                                     <color key="textColor" name="#989595"/>
                                                                                     <nil key="highlightedColor"/>
@@ -2942,16 +2942,16 @@ Become A Part Of You  Somehow</string>
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="0AC-eq-O7g">
-                                        <rect key="frame" x="116" y="40" width="179.5" height="20"/>
+                                        <rect key="frame" x="116" y="39.5" width="173.5" height="21"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Venkata Ajay Sai Nellori" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uW-AQ-XG0">
-                                                <rect key="frame" x="0.0" y="0.0" width="179.5" height="20"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="21"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="17"/>
                                                 <color key="textColor" name="#252634_"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Darrell@email.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08p-SF-C2Y">
-                                                <rect key="frame" x="0.0" y="0.0" width="179.5" height="0.0"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="173.5" height="0.0"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" name="#989595"/>
                                                 <nil key="highlightedColor"/>
@@ -3050,7 +3050,7 @@ Become A Part Of You  Somehow</string>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kqJ-YZ-yLk">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="559"/>
                                                 <subviews>
-                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="o9P-BR-c02">
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="o9P-BR-c02">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="491"/>
                                                         <prototypes>
                                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SenderChatTableCell" id="MgB-QM-him" customClass="ChatTableCell" customModule="BList" customModuleProvider="target">
@@ -3206,10 +3206,10 @@ Become A Part Of You  Somehow</string>
                                                                                     </constraints>
                                                                                 </view>
                                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1vE-8S-5B3">
-                                                                                    <rect key="frame" x="0.0" y="55" width="173" height="30"/>
+                                                                                    <rect key="frame" x="0.0" y="55" width="165" height="30"/>
                                                                                     <subviews>
                                                                                         <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBw-Dn-oGd" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="81.5" height="30"/>
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="77.5" height="30"/>
                                                                                             <color key="backgroundColor" name="AppOrange"/>
                                                                                             <constraints>
                                                                                                 <constraint firstAttribute="height" constant="30" id="sqZ-gf-1xG"/>
@@ -3228,7 +3228,7 @@ Become A Part Of You  Somehow</string>
                                                                                             </userDefinedRuntimeAttributes>
                                                                                         </button>
                                                                                         <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NlQ-MN-Wyv" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                            <rect key="frame" x="91.5" y="0.0" width="81.5" height="30"/>
+                                                                                            <rect key="frame" x="87.5" y="0.0" width="77.5" height="30"/>
                                                                                             <color key="backgroundColor" name="#EFF0F1"/>
                                                                                             <constraints>
                                                                                                 <constraint firstAttribute="height" constant="30" id="qHQ-xa-0RG"/>
@@ -3281,13 +3281,13 @@ Become A Part Of You  Somehow</string>
                                                             <outlet property="delegate" destination="t6P-TI-7dS" id="QSK-Gq-X6b"/>
                                                         </connections>
                                                     </tableView>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMg-5I-zop">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BMg-5I-zop">
                                                         <rect key="frame" x="0.0" y="491" width="375" height="68"/>
                                                         <subviews>
-                                                            <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PVZ-yv-yld" customClass="AnimatableView" customModule="IBAnimatable">
+                                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PVZ-yv-yld" customClass="AnimatableView" customModule="IBAnimatable">
                                                                 <rect key="frame" x="20" y="0.0" width="335" height="48"/>
                                                                 <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVe-e0-GRF">
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVe-e0-GRF">
                                                                         <rect key="frame" x="296" y="7" width="34" height="34"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="VVe-e0-GRF" secondAttribute="height" multiplier="1:1" id="f64-Vp-5U0"/>
@@ -3299,7 +3299,7 @@ Become A Part Of You  Somehow</string>
                                                                             <action selector="actionSend:" destination="t6P-TI-7dS" eventType="touchUpInside" id="wpB-p9-FcZ"/>
                                                                         </connections>
                                                                     </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1f-cr-aT5">
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1f-cr-aT5">
                                                                         <rect key="frame" x="267" y="13" width="19" height="22"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="photo"/>
@@ -3307,7 +3307,7 @@ Become A Part Of You  Somehow</string>
                                                                             <action selector="actionPhoto:" destination="t6P-TI-7dS" eventType="touchUpInside" id="AHX-PB-GCV"/>
                                                                         </connections>
                                                                     </button>
-                                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IAo-wH-YUM" customClass="GrowingTextView" customModule="GrowingTextView">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IAo-wH-YUM" customClass="GrowingTextView" customModule="GrowingTextView">
                                                                         <rect key="frame" x="15" y="6" width="242" height="36"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <userDefinedRuntimeAttributes>
@@ -4277,39 +4277,39 @@ how can we help ?</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your feedback about?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44B-LI-Fhc">
-                                <rect key="frame" x="20" y="228.5" width="335" height="19"/>
+                                <rect key="frame" x="20" y="232.5" width="335" height="19"/>
                                 <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="16"/>
                                 <color key="textColor" red="0.20392156859999999" green="0.21176470589999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share your feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3en-u1-sBy">
-                                <rect key="frame" x="76.5" y="90" width="222.5" height="28"/>
+                                <rect key="frame" x="81.5" y="90" width="212" height="29.5"/>
                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="24"/>
                                 <color key="textColor" red="0.1450980392" green="0.14901960780000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We value your feedback, ideas, issues, and anything we could use to improve your experience" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOd-ky-zsO">
-                                <rect key="frame" x="65.5" y="130" width="244" height="52.5"/>
+                                <rect key="frame" x="65.5" y="131.5" width="244" height="55"/>
                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="15"/>
                                 <color key="textColor" name="#989595"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E5S-33-U2N">
-                                <rect key="frame" x="20" y="299.5" width="335" height="1"/>
+                                <rect key="frame" x="20" y="303.5" width="335" height="1"/>
                                 <color key="backgroundColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="smc-AU-F3H"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8pK-88-aGU">
-                                <rect key="frame" x="20" y="452.5" width="335" height="1"/>
+                                <rect key="frame" x="20" y="456.5" width="335" height="1"/>
                                 <color key="backgroundColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="Fyr-dL-2Yu"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLT-ux-9CK" customClass="AnimatableButton" customModule="IBAnimatable">
-                                <rect key="frame" x="20" y="485.5" width="335" height="48"/>
+                                <rect key="frame" x="20" y="489.5" width="335" height="48"/>
                                 <color key="backgroundColor" red="0.97647058819999999" green="0.41568627450000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="IJD-Nr-z9K"/>
@@ -4329,7 +4329,7 @@ how can we help ?</string>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Choose options" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8yj-sL-Q5G" customClass="AnimatableTextField" customModule="IBAnimatable">
-                                <rect key="frame" x="20" y="257.5" width="335" height="40"/>
+                                <rect key="frame" x="20" y="261.5" width="335" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="1eL-nu-4zu"/>
                                 </constraints>
@@ -4346,7 +4346,7 @@ how can we help ?</string>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Wa-zP-D68" customClass="GrowingTextView" customModule="GrowingTextView">
-                                <rect key="frame" x="20" y="320.5" width="335" height="130"/>
+                                <rect key="frame" x="20" y="324.5" width="335" height="130"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="uqE-Lu-ThI"/>
@@ -4368,7 +4368,7 @@ how can we help ?</string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJU-xw-UqG" customClass="AnimatableView" customModule="IBAnimatable">
-                                        <rect key="frame" x="47" y="262" width="281" height="143.5"/>
+                                        <rect key="frame" x="47" y="261.5" width="281" height="144.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="send_feed" translatesAutoresizingMaskIntoConstraints="NO" id="WOD-ot-76P">
                                                 <rect key="frame" x="115.5" y="25" width="50" height="50"/>
@@ -4378,7 +4378,7 @@ how can we help ?</string>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback Submitted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-x2-wR5">
-                                                <rect key="frame" x="10" y="95" width="261" height="23.5"/>
+                                                <rect key="frame" x="10" y="95" width="261" height="24.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="20"/>
                                                 <color key="textColor" name="#252634_"/>
                                                 <nil key="highlightedColor"/>
@@ -4478,7 +4478,7 @@ how can we help ?</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reviews &amp; Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tv6-xh-tvA">
-                                        <rect key="frame" x="97.5" y="21.5" width="180" height="27"/>
+                                        <rect key="frame" x="103" y="21" width="169" height="28"/>
                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="23"/>
                                         <color key="textColor" name="#252634_"/>
                                         <nil key="highlightedColor"/>
@@ -4503,14 +4503,14 @@ how can we help ?</string>
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ReviewTableCell" id="TtD-Ig-ULA" customClass="ReviewTableCell" customModule="BList" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="60" width="375" height="180"/>
+                                        <rect key="frame" x="0.0" y="60" width="375" height="168"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TtD-Ig-ULA" id="LJY-Ao-Msw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rTy-0Y-heP">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_img" translatesAutoresizingMaskIntoConstraints="NO" id="wH1-zA-AYn" customClass="AnimatableImageView" customModule="IBAnimatable">
                                                             <rect key="frame" x="16" y="12" width="80" height="80"/>
@@ -4525,7 +4525,7 @@ how can we help ?</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QN9-th-icV">
-                                                            <rect key="frame" x="111" y="12" width="214" height="111"/>
+                                                            <rect key="frame" x="111" y="12" width="214" height="99"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="cnQ-Xm-Rct">
                                                                     <rect key="frame" x="0.0" y="0.0" width="214" height="12"/>
@@ -4546,13 +4546,13 @@ how can we help ?</string>
                                                                     </subviews>
                                                                 </stackView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taste, Texture &amp; Flavors of New york" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OrF-w3-hVt">
-                                                                    <rect key="frame" x="0.0" y="20" width="214" height="37.5"/>
+                                                                    <rect key="frame" x="0.0" y="20" width="214" height="39"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
                                                                     <color key="textColor" name="#190000"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing eli In venenatis" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jki-J8-7Yu">
-                                                                    <rect key="frame" x="0.0" y="65.5" width="214" height="45.5"/>
+                                                                    <rect key="frame" x="0.0" y="67" width="214" height="32"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="13"/>
                                                                     <color key="textColor" name="#989595"/>
                                                                     <nil key="highlightedColor"/>
@@ -4568,16 +4568,16 @@ how can we help ?</string>
                                                             <state key="normal" image="menu"/>
                                                         </button>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a6c-ha-U1p" customClass="AnimatableView" customModule="IBAnimatable">
-                                                            <rect key="frame" x="16" y="81" width="80" height="22"/>
+                                                            <rect key="frame" x="16" y="81" width="80" height="22.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jhon Deo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czL-Eo-EuE">
-                                                                    <rect key="frame" x="25" y="5" width="50" height="12"/>
+                                                                    <rect key="frame" x="25" y="5" width="50" height="12.5"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="10"/>
                                                                     <color key="textColor" name="#989595"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img" translatesAutoresizingMaskIntoConstraints="NO" id="XKG-Ij-E51" customClass="AnimatableImageView" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="5" y="3.5" width="15" height="15"/>
+                                                                    <rect key="frame" x="5" y="4" width="15" height="15"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="15" id="41c-xo-AvW"/>
                                                                         <constraint firstAttribute="height" constant="15" id="wNe-ci-aIU"/>
@@ -4617,10 +4617,10 @@ how can we help ?</string>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="neP-1c-36L">
-                                                            <rect key="frame" x="111" y="128" width="249" height="37"/>
+                                                            <rect key="frame" x="111" y="116" width="249" height="37"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAw-bp-wpN" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="86" height="37"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="83" height="37"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="13"/>
                                                                     <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                                     <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -4686,14 +4686,14 @@ how can we help ?</string>
                                                             </subviews>
                                                         </stackView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktk-Bq-s57">
-                                                            <rect key="frame" x="111" y="129.5" width="249" height="1"/>
+                                                            <rect key="frame" x="111" y="117.5" width="249" height="1"/>
                                                             <color key="backgroundColor" name="#FBFBFB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="1" id="hFI-lC-QMO"/>
                                                             </constraints>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$842" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmy-QF-P93">
-                                                            <rect key="frame" x="39.5" y="113" width="33.5" height="17.5"/>
+                                                            <rect key="frame" x="38.5" y="113.5" width="35.5" height="18.5"/>
                                                             <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="15"/>
                                                             <color key="textColor" name="AppOrange"/>
                                                             <nil key="highlightedColor"/>
@@ -5157,13 +5157,13 @@ how can we help ?</string>
                                                                                     <rect key="frame" x="0.0" y="84" width="312" height="14"/>
                                                                                     <subviews>
                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yey-J8-cSm">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="256.5" height="14"/>
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="261.5" height="14"/>
                                                                                             <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="12"/>
                                                                                             <color key="textColor" name="AppOrange"/>
                                                                                             <nil key="highlightedColor"/>
                                                                                         </label>
                                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXH-mW-yaF" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                            <rect key="frame" x="266.5" y="0.0" width="45.5" height="14"/>
+                                                                                            <rect key="frame" x="271.5" y="0.0" width="40.5" height="14"/>
                                                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="8"/>
                                                                                             <inset key="titleEdgeInsets" minX="-2" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -5557,7 +5557,7 @@ how can we help ?</string>
                                 <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nst-Qb-3zg">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1423"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1425"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="expreiences_img" translatesAutoresizingMaskIntoConstraints="NO" id="6t6-mo-9ep" customClass="AnimatableImageView" customModule="IBAnimatable">
                                                 <rect key="frame" x="30" y="8" width="121" height="131"/>
@@ -5572,13 +5572,13 @@ how can we help ?</string>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIU-zd-gy7">
-                                                <rect key="frame" x="171" y="8" width="78" height="19"/>
+                                                <rect key="frame" x="171" y="8" width="73.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" name="#676A71"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Jessica" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Sd-n1-ex9" customClass="AnimatedBindingText" customModule="BList" customModuleProvider="target">
-                                                <rect key="frame" x="171" y="30" width="194" height="30"/>
+                                                <rect key="frame" x="171" y="30.5" width="194" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="HyZ-KA-gLi"/>
                                                 </constraints>
@@ -5595,13 +5595,13 @@ how can we help ?</string>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYo-Ps-KcX">
-                                                <rect key="frame" x="171" y="72" width="77.5" height="19"/>
+                                                <rect key="frame" x="171" y="72.5" width="72.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" name="#676A71"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="Johns" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ypd-s3-S9c" customClass="AnimatedBindingText" customModule="BList" customModuleProvider="target">
-                                                <rect key="frame" x="171" y="91" width="194" height="30"/>
+                                                <rect key="frame" x="171" y="92" width="194" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="IS3-Cq-p2L"/>
                                                 </constraints>
@@ -5621,13 +5621,13 @@ how can we help ?</string>
                                                 <rect key="frame" x="21" y="171" width="333" height="148"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Identity Verification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydz-ql-7uE">
-                                                        <rect key="frame" x="66" y="17" width="153" height="21"/>
+                                                        <rect key="frame" x="66" y="17" width="169" height="23"/>
                                                         <fontDescription key="fontDescription" name="CerebriSans-SemiBold" family="Cerebri Sans" pointSize="18"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="are-3u-6An">
-                                                        <rect key="frame" x="66" y="43" width="265" height="49"/>
+                                                        <rect key="frame" x="66" y="45" width="265" height="53.5"/>
                                                         <string key="text">Show other you're really you with the identity
 verification badge</string>
                                                         <fontDescription key="fontDescription" name="CerebriSans-Book" family="Cerebri Sans" pointSize="14"/>
@@ -5642,7 +5642,7 @@ verification badge</string>
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfQ-d4-lET">
-                                                        <rect key="frame" x="66" y="107" width="97" height="30"/>
+                                                        <rect key="frame" x="66" y="113.5" width="102" height="32"/>
                                                         <fontDescription key="fontDescription" name="CerebriSans-SemiBold" family="Cerebri Sans" pointSize="15"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Get the badge">
@@ -5680,13 +5680,13 @@ verification badge</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nh-Ky-Yb3">
-                                                <rect key="frame" x="30" y="351" width="57" height="19"/>
+                                                <rect key="frame" x="30" y="351" width="53.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" red="0.14509803921568626" green="0.14901960784313725" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="john123@email.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yse-1q-Hcg" customClass="AnimatedBindingText" customModule="BList" customModuleProvider="target">
-                                                <rect key="frame" x="30" y="373" width="315" height="30"/>
+                                                <rect key="frame" x="30" y="373.5" width="315" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="hGl-QD-a9r"/>
                                                 </constraints>
@@ -5705,13 +5705,13 @@ verification badge</string>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cc9-kt-pQw">
-                                                <rect key="frame" x="30" y="421" width="34.5" height="19"/>
+                                                <rect key="frame" x="30" y="421.5" width="34" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" red="0.1450980392" green="0.14901960780000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" text="23-Jul-1994" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gSO-Nm-1OP" customClass="AnimatedBindingText" customModule="BList" customModuleProvider="target">
-                                                <rect key="frame" x="30" y="443" width="315" height="30"/>
+                                                <rect key="frame" x="30" y="444" width="315" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="mnV-2I-KFQ"/>
                                                 </constraints>
@@ -5730,13 +5730,13 @@ verification badge</string>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile No" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XeS-e6-EYq">
-                                                <rect key="frame" x="30" y="488" width="73.5" height="19"/>
+                                                <rect key="frame" x="30" y="489" width="69.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" red="0.1450980392" green="0.14901960780000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NCT-uX-jfa">
-                                                <rect key="frame" x="30" y="510" width="315" height="30"/>
+                                                <rect key="frame" x="30" y="511.5" width="315" height="30"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1se-VL-0c5" customClass="AnimatableButton" customModule="IBAnimatable">
                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="30"/>
@@ -5783,13 +5783,13 @@ verification badge</string>
                                                 </subviews>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krp-CF-ISw">
-                                                <rect key="frame" x="30" y="557" width="70" height="19"/>
+                                                <rect key="frame" x="30" y="558.5" width="67.5" height="19.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                 <color key="textColor" red="0.1450980392" green="0.14901960780000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="87p-Fs-XX1" customClass="AnimatableTextView" customModule="IBAnimatable">
-                                                <rect key="frame" x="30" y="586" width="315" height="100"/>
+                                                <rect key="frame" x="30" y="588" width="315" height="100"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="100" id="FVy-Xj-UIr"/>
@@ -5812,7 +5812,7 @@ verification badge</string>
                                                 </userDefinedRuntimeAttributes>
                                             </textView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE0-Om-Mac">
-                                                <rect key="frame" x="30" y="701" width="315" height="622"/>
+                                                <rect key="frame" x="30" y="703" width="315" height="622"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yJh-TM-max">
                                                         <rect key="frame" x="15" y="16" width="285" height="585"/>
@@ -6184,7 +6184,7 @@ verification badge</string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqY-IP-OPZ" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                <rect key="frame" x="36" y="1338" width="303" height="48"/>
+                                                <rect key="frame" x="36" y="1340" width="303" height="48"/>
                                                 <color key="backgroundColor" red="0.97647058819999999" green="0.41568627450000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="48" id="bIj-w0-izV"/>
@@ -6329,22 +6329,22 @@ verification badge</string>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="0CH-1j-cVd">
-                                <rect key="frame" x="25" y="162" width="325" height="343.5"/>
+                                <rect key="frame" x="25" y="161" width="325" height="345.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="g4J-O4-Fyh">
-                                        <rect key="frame" x="0.0" y="0.0" width="325" height="85.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="87.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3SJ-fj-0h3">
-                                                <rect key="frame" x="0.0" y="0.0" width="325" height="49.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="51.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overall Experience:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8x-Rk-y2H">
-                                                        <rect key="frame" x="0.0" y="0.0" width="325" height="27"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="325" height="28"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="23"/>
                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leave Public Review" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpA-9B-3wh">
-                                                        <rect key="frame" x="0.0" y="32" width="325" height="17.5"/>
+                                                        <rect key="frame" x="0.0" y="33" width="325" height="18.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="15"/>
                                                         <color key="textColor" name="#989595"/>
                                                         <nil key="highlightedColor"/>
@@ -6352,7 +6352,7 @@ verification badge</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rWN-Zp-mZI">
-                                                <rect key="frame" x="0.0" y="67.5" width="325" height="18"/>
+                                                <rect key="frame" x="0.0" y="69.5" width="325" height="18"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvQ-WY-GCr" customClass="FloatRatingView" customModule="FloatRatingView">
                                                         <rect key="frame" x="0.0" y="0.0" width="162.5" height="18"/>
@@ -6383,7 +6383,7 @@ verification badge</string>
                                         </subviews>
                                     </stackView>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tAL-kY-5Ah" customClass="GrowingTextView" customModule="GrowingTextView">
-                                        <rect key="frame" x="0.0" y="120.5" width="325" height="140"/>
+                                        <rect key="frame" x="0.0" y="122.5" width="325" height="140"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="140" id="UaZ-l7-Hde"/>
@@ -6411,7 +6411,7 @@ verification badge</string>
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94Q-XG-8a9" customClass="AnimatableButton" customModule="IBAnimatable">
-                                        <rect key="frame" x="0.0" y="295.5" width="325" height="48"/>
+                                        <rect key="frame" x="0.0" y="297.5" width="325" height="48"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.41568627450000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="kZA-NP-59p"/>
@@ -8067,7 +8067,7 @@ verification badge</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPi-cS-0PN">
-                                <rect key="frame" x="138.5" y="12" width="98.5" height="21"/>
+                                <rect key="frame" x="138" y="12" width="99" height="21"/>
                                 <fontDescription key="fontDescription" name="Cabin-BoldItalic" family="Cabin" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -10115,7 +10115,7 @@ verification badge</string>
                                         <rect key="frame" x="0.0" y="89" width="375" height="469"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJ0-oM-PhI">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="541"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ft5-f1-wBS">
                                                         <rect key="frame" x="20" y="20" width="325" height="34"/>
@@ -10189,7 +10189,7 @@ verification badge</string>
                                                         </connections>
                                                     </collectionView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sHE-W1-pfQ" customClass="RangeSeekSlider" customModule="BList" customModuleProvider="target">
-                                                        <rect key="frame" x="5" y="88.5" width="365" height="30"/>
+                                                        <rect key="frame" x="5" y="89.5" width="365" height="30"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="tintColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
@@ -10242,49 +10242,49 @@ verification badge</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOR-dc-SwR">
-                                                        <rect key="frame" x="20" y="67" width="32" height="16.5"/>
+                                                        <rect key="frame" x="20" y="67" width="29.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1t-hD-80P">
-                                                        <rect key="frame" x="20" y="138.5" width="27.5" height="16.5"/>
+                                                        <rect key="frame" x="20" y="139.5" width="25.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy9-9P-h8r">
-                                                        <rect key="frame" x="292" y="67" width="63" height="16.5"/>
+                                                        <rect key="frame" x="297" y="67" width="58" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1000+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMn-Qj-DrM">
-                                                        <rect key="frame" x="307.5" y="138.5" width="47.5" height="16.5"/>
+                                                        <rect key="frame" x="305.5" y="139.5" width="49.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr3-iX-aPx">
-                                                        <rect key="frame" x="20" y="167" width="29.5" height="16.5"/>
+                                                        <rect key="frame" x="20" y="169" width="29" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhX-EW-YIh">
-                                                        <rect key="frame" x="20" y="249.5" width="31" height="16.5"/>
+                                                        <rect key="frame" x="20" y="252.5" width="30.5" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQc-iX-dxh">
-                                                        <rect key="frame" x="172.5" y="167" width="54.5" height="16.5"/>
+                                                        <rect key="frame" x="172.5" y="169" width="52" height="17.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lcn-iv-I4D">
-                                                        <rect key="frame" x="20" y="191.5" width="335" height="45"/>
+                                                        <rect key="frame" x="20" y="194.5" width="335" height="45"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="13/04/2022" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LXR-gm-sX3" customClass="AnimatableTextField" customModule="IBAnimatable">
                                                                 <rect key="frame" x="0.0" y="0.0" width="142.5" height="45"/>
@@ -10327,7 +10327,7 @@ verification badge</string>
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Pib-LT-OsV">
-                                                        <rect key="frame" x="20" y="273" width="347" height="45"/>
+                                                        <rect key="frame" x="20" y="277" width="347" height="45"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEY-zX-EM5">
                                                                 <rect key="frame" x="0.0" y="0.0" width="31" height="45"/>
@@ -10400,7 +10400,7 @@ verification badge</string>
                                                         </constraints>
                                                     </stackView>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cQM-ge-asP">
-                                                        <rect key="frame" x="19" y="331" width="346" height="200"/>
+                                                        <rect key="frame" x="19" y="335" width="346" height="200"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="XbU-4f-G2B"/>
@@ -10714,7 +10714,7 @@ verification badge</string>
                                         </connections>
                                     </collectionView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search by Creator ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7T3-sE-9Nv">
-                                        <rect key="frame" x="22" y="141" width="131" height="17.5"/>
+                                        <rect key="frame" x="22" y="141" width="123.5" height="17.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17.5" id="vMO-Eo-h4I"/>
                                         </constraints>
@@ -10743,7 +10743,7 @@ verification badge</string>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search by keyword" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aE-Xl-FMW">
-                                        <rect key="frame" x="20" y="225.5" width="120.5" height="17.5"/>
+                                        <rect key="frame" x="20" y="225.5" width="113.5" height="17.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17.5" id="oNT-0N-g1b"/>
                                         </constraints>
@@ -10772,7 +10772,7 @@ verification badge</string>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56C-dG-7x8">
-                                        <rect key="frame" x="20" y="310" width="84" height="17.5"/>
+                                        <rect key="frame" x="20" y="310" width="79.5" height="17.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17.5" id="FfI-Vh-prl"/>
                                         </constraints>
@@ -10926,16 +10926,16 @@ verification badge</string>
                                         <rect key="frame" x="20" y="20" width="335" height="617"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ko-kc-mGH">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="588.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="590"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate Experience Qualities" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4P5-qI-YLY">
-                                                        <rect key="frame" x="58.5" y="20" width="218.5" height="22.5"/>
+                                                        <rect key="frame" x="64" y="20" width="207.5" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="19"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gh-8A-KjG">
-                                                        <rect key="frame" x="318" y="23" width="17" height="17"/>
+                                                        <rect key="frame" x="318" y="23.5" width="17" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="0gh-8A-KjG" secondAttribute="height" multiplier="1:1" id="InF-du-Hde"/>
                                                             <constraint firstAttribute="height" constant="17" id="ZvX-K2-G6u"/>
@@ -10948,7 +10948,7 @@ verification badge</string>
                                                         </connections>
                                                     </button>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hdg-Oh-kQy">
-                                                        <rect key="frame" x="0.0" y="58.5" width="335" height="297"/>
+                                                        <rect key="frame" x="0.0" y="59.5" width="335" height="297"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="297" id="JjU-7g-TkT"/>
@@ -10962,7 +10962,7 @@ verification badge</string>
                                                                     <autoresizingMask key="autoresizingMask"/>
                                                                     <subviews>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wUd-Nc-w7L" customClass="FloatRatingView" customModule="FloatRatingView">
-                                                                            <rect key="frame" x="185" y="41" width="147" height="18"/>
+                                                                            <rect key="frame" x="185" y="42" width="147" height="17"/>
                                                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                             <userDefinedRuntimeAttributes>
                                                                                 <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="star_empty"/>
@@ -10979,20 +10979,20 @@ verification badge</string>
                                                                             </userDefinedRuntimeAttributes>
                                                                         </view>
                                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQx-DO-yZD">
-                                                                            <rect key="frame" x="185" y="21.5" width="113.5" height="1"/>
+                                                                            <rect key="frame" x="185" y="22" width="114" height="1"/>
                                                                             <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="1" id="4Yx-ZJ-fSg"/>
                                                                             </constraints>
                                                                         </view>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 star" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Dx-4N-Pg5">
-                                                                            <rect key="frame" x="301.5" y="15" width="30.5" height="14"/>
+                                                                            <rect key="frame" x="302" y="15" width="30" height="15"/>
                                                                             <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="12"/>
                                                                             <color key="textColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Communication" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OcP-2w-AK3">
-                                                                            <rect key="frame" x="3" y="24" width="113.5" height="21"/>
+                                                                            <rect key="frame" x="3" y="24" width="109" height="21"/>
                                                                             <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                                             <color key="textColor" red="0.4039215686" green="0.41568627450000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -11026,16 +11026,16 @@ verification badge</string>
                                                         </connections>
                                                     </tableView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bDi-qj-Y2f">
-                                                        <rect key="frame" x="0.0" y="385.5" width="335" height="74"/>
+                                                        <rect key="frame" x="0.0" y="386.5" width="335" height="74.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would you like to tip your creator?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcY-NP-9jZ">
-                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="19"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="335" height="19.5"/>
                                                                 <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="16"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NaV-eI-1n7">
-                                                                <rect key="frame" x="0.0" y="34" width="335" height="40"/>
+                                                                <rect key="frame" x="0.0" y="34.5" width="335" height="40"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Pbt-oJ-MnU">
                                                                         <rect key="frame" x="0.0" y="0.0" width="162" height="40"/>
@@ -11120,7 +11120,7 @@ verification badge</string>
                                                                 </constraints>
                                                             </view>
                                                             <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZtZ-zn-Gso">
-                                                                <rect key="frame" x="0.0" y="74" width="335" height="40"/>
+                                                                <rect key="frame" x="0.0" y="74.5" width="335" height="40"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufN-dm-Fwf" customClass="AnimatableButton" customModule="IBAnimatable">
                                                                         <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
@@ -11244,7 +11244,7 @@ verification badge</string>
                                                                 </subviews>
                                                             </stackView>
                                                             <textField hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Tip Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oc-eQ-V5C" customClass="AnimatedBindingText" customModule="BList" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="74" width="335" height="40"/>
+                                                                <rect key="frame" x="0.0" y="74.5" width="335" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="0fP-a5-37J"/>
                                                                 </constraints>
@@ -11267,7 +11267,7 @@ verification badge</string>
                                                         </subviews>
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0C-Uq-k1q" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                        <rect key="frame" x="0.0" y="479.5" width="335" height="50"/>
+                                                        <rect key="frame" x="0.0" y="481" width="335" height="50"/>
                                                         <color key="backgroundColor" red="0.97647058819999999" green="0.41568627450000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="CUo-tj-N9L"/>
@@ -11287,7 +11287,7 @@ verification badge</string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PM-PA-W4I">
-                                                        <rect key="frame" x="0.0" y="549.5" width="335" height="19"/>
+                                                        <rect key="frame" x="0.0" y="551" width="335" height="19"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="19" id="viN-f9-erd"/>
                                                         </constraints>
@@ -13242,10 +13242,10 @@ verification badge</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="baQ-a5-rI3" customClass="AnimatableView" customModule="IBAnimatable">
-                                <rect key="frame" x="0.0" y="321" width="375" height="346"/>
+                                <rect key="frame" x="0.0" y="320" width="375" height="347"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3g-49-QVr">
-                                        <rect key="frame" x="52.5" y="20" width="270" height="21"/>
+                                        <rect key="frame" x="52.5" y="20" width="270" height="22"/>
                                         <string key="text" base64-UTF8="YES">
 EEFkZCBhIGNvbW1lbnQ
 </string>
@@ -13254,7 +13254,7 @@ EEFkZCBhIGNvbW1lbnQ
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O7E-16-KlQ" customClass="AnimatableView" customModule="IBAnimatable">
-                                        <rect key="frame" x="22.5" y="61" width="330" height="155"/>
+                                        <rect key="frame" x="22.5" y="62" width="330" height="155"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UAW-zX-Xzw">
                                                 <rect key="frame" x="20" y="15" width="290" height="50"/>
@@ -13382,7 +13382,7 @@ EEFkZCBhIGNvbW1lbnQ
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YWd-E8-gHW">
-                                        <rect key="frame" x="22.5" y="236" width="330" height="100"/>
+                                        <rect key="frame" x="22.5" y="237" width="330" height="100"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgA-Ew-6fa" customClass="AnimatableButton" customModule="IBAnimatable">
                                                 <rect key="frame" x="0.0" y="0.0" width="330" height="45"/>
@@ -14520,10 +14520,13 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="82" height="91"/>
         </designable>
         <designable name="1se-VL-0c5">
-            <size key="intrinsicContentSize" width="50" height="21"/>
+            <size key="intrinsicContentSize" width="44" height="22"/>
         </designable>
         <designable name="2VZ-VB-Yen">
             <size key="intrinsicContentSize" width="14" height="23"/>
+        </designable>
+        <designable name="2Wa-zP-D68">
+            <size key="intrinsicContentSize" width="-1" height="30"/>
         </designable>
         <designable name="2aK-GF-j6d">
             <size key="intrinsicContentSize" width="993" height="264"/>
@@ -14532,13 +14535,13 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
         <designable name="4DU-0M-gvr">
-            <size key="intrinsicContentSize" width="56" height="33"/>
+            <size key="intrinsicContentSize" width="52" height="34"/>
         </designable>
         <designable name="4Ga-2t-J95">
             <size key="intrinsicContentSize" width="85.5" height="12"/>
         </designable>
         <designable name="4mY-GO-rCI">
-            <size key="intrinsicContentSize" width="133.5" height="18"/>
+            <size key="intrinsicContentSize" width="136" height="19.5"/>
         </designable>
         <designable name="5QF-NZ-PM7">
             <size key="intrinsicContentSize" width="179" height="32"/>
@@ -14568,7 +14571,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="32" height="10"/>
         </designable>
         <designable name="8hg-p8-G6F">
-            <size key="intrinsicContentSize" width="36" height="29"/>
+            <size key="intrinsicContentSize" width="35" height="30"/>
         </designable>
         <designable name="8uh-Ek-Cks">
             <size key="intrinsicContentSize" width="30" height="31"/>
@@ -14577,10 +14580,10 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="58" height="33"/>
         </designable>
         <designable name="8yj-sL-Q5G">
-            <size key="intrinsicContentSize" width="106.5" height="19"/>
+            <size key="intrinsicContentSize" width="99" height="20"/>
         </designable>
         <designable name="94Q-XG-8a9">
-            <size key="intrinsicContentSize" width="34" height="31"/>
+            <size key="intrinsicContentSize" width="33" height="32"/>
         </designable>
         <designable name="9TC-pQ-TKF">
             <size key="intrinsicContentSize" width="82" height="91"/>
@@ -14601,16 +14604,16 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="74" height="72"/>
         </designable>
         <designable name="CVv-Z0-q60">
-            <size key="intrinsicContentSize" width="31" height="33"/>
+            <size key="intrinsicContentSize" width="33" height="34"/>
         </designable>
         <designable name="EZ9-Gq-biW">
             <size key="intrinsicContentSize" width="73" height="33"/>
         </designable>
         <designable name="G7j-9m-EqA">
-            <size key="intrinsicContentSize" width="79" height="29"/>
+            <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="GXH-mW-yaF">
-            <size key="intrinsicContentSize" width="45.5" height="12"/>
+            <size key="intrinsicContentSize" width="40.5" height="11.5"/>
         </designable>
         <designable name="Gr0-D3-WmD">
             <size key="intrinsicContentSize" width="30" height="30"/>
@@ -14618,32 +14621,35 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="I8t-F0-vGp">
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
+        <designable name="IAo-wH-YUM">
+            <size key="intrinsicContentSize" width="-1" height="30"/>
+        </designable>
         <designable name="IJr-R9-9Oj">
             <size key="intrinsicContentSize" width="30" height="25"/>
         </designable>
         <designable name="IeU-fZ-Sak">
-            <size key="intrinsicContentSize" width="46" height="33"/>
+            <size key="intrinsicContentSize" width="45" height="34"/>
         </designable>
         <designable name="K6K-7K-lsp">
             <size key="intrinsicContentSize" width="67" height="17"/>
         </designable>
         <designable name="K95-HR-sHa">
-            <size key="intrinsicContentSize" width="41" height="31"/>
+            <size key="intrinsicContentSize" width="41" height="32"/>
         </designable>
         <designable name="LFx-5l-bnR">
             <size key="intrinsicContentSize" width="40" height="33"/>
         </designable>
         <designable name="LTC-xg-okX">
-            <size key="intrinsicContentSize" width="85" height="17"/>
+            <size key="intrinsicContentSize" width="80" height="18"/>
         </designable>
         <designable name="LXR-gm-sX3">
-            <size key="intrinsicContentSize" width="88" height="18"/>
+            <size key="intrinsicContentSize" width="96" height="19.5"/>
         </designable>
         <designable name="MqH-O5-vD5">
             <size key="intrinsicContentSize" width="40" height="31"/>
         </designable>
         <designable name="N0C-Uq-k1q">
-            <size key="intrinsicContentSize" width="100" height="33"/>
+            <size key="intrinsicContentSize" width="95" height="34"/>
         </designable>
         <designable name="N64-lY-G4r">
             <size key="intrinsicContentSize" width="74" height="72"/>
@@ -14658,7 +14664,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="66.5" height="22.5"/>
         </designable>
         <designable name="NlQ-MN-Wyv">
-            <size key="intrinsicContentSize" width="74.5" height="17"/>
+            <size key="intrinsicContentSize" width="71.5" height="18"/>
         </designable>
         <designable name="O2s-0g-APl">
             <size key="intrinsicContentSize" width="77" height="22.5"/>
@@ -14673,7 +14679,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="67" height="29"/>
         </designable>
         <designable name="P6P-nG-08w">
-            <size key="intrinsicContentSize" width="30" height="33"/>
+            <size key="intrinsicContentSize" width="30" height="34"/>
         </designable>
         <designable name="R0e-Py-jFD">
             <size key="intrinsicContentSize" width="76" height="71"/>
@@ -14697,7 +14703,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="30" height="31"/>
         </designable>
         <designable name="Tix-dv-xXg">
-            <size key="intrinsicContentSize" width="36" height="29"/>
+            <size key="intrinsicContentSize" width="35" height="30"/>
         </designable>
         <designable name="Uhu-so-QFO">
             <size key="intrinsicContentSize" width="18" height="18"/>
@@ -14736,10 +14742,13 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="90.5" height="21.5"/>
         </designable>
         <designable name="Zuc-Vp-6PV">
-            <size key="intrinsicContentSize" width="29.5" height="14"/>
+            <size key="intrinsicContentSize" width="28" height="15"/>
         </designable>
         <designable name="cCn-7t-eef">
             <size key="intrinsicContentSize" width="36.5" height="22.5"/>
+        </designable>
+        <designable name="cx9-iK-bmO">
+            <size key="intrinsicContentSize" width="-1" height="30"/>
         </designable>
         <designable name="cyW-hP-F16">
             <size key="intrinsicContentSize" width="45" height="45"/>
@@ -14766,7 +14775,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
         <designable name="gAU-Bd-rnN">
-            <size key="intrinsicContentSize" width="57.5" height="18"/>
+            <size key="intrinsicContentSize" width="58.5" height="19.5"/>
         </designable>
         <designable name="gcn-aP-dy4">
             <size key="intrinsicContentSize" width="7.5" height="15.5"/>
@@ -14775,7 +14784,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="160" height="140"/>
         </designable>
         <designable name="hBw-Dn-oGd">
-            <size key="intrinsicContentSize" width="81.5" height="17"/>
+            <size key="intrinsicContentSize" width="77.5" height="18"/>
         </designable>
         <designable name="hZ4-i6-irN">
             <size key="intrinsicContentSize" width="38" height="31"/>
@@ -14793,7 +14802,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="30" height="31"/>
         </designable>
         <designable name="jq6-tn-l7C">
-            <size key="intrinsicContentSize" width="30" height="33"/>
+            <size key="intrinsicContentSize" width="30" height="34"/>
         </designable>
         <designable name="kBT-bt-SH0">
             <size key="intrinsicContentSize" width="48" height="48"/>
@@ -14814,22 +14823,28 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="84" height="34"/>
         </designable>
         <designable name="pj0-de-a0u">
-            <size key="intrinsicContentSize" width="79" height="29"/>
+            <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="pqI-mc-F1j">
             <size key="intrinsicContentSize" width="149" height="114"/>
         </designable>
         <designable name="qEG-8Q-8T6">
-            <size key="intrinsicContentSize" width="41" height="31"/>
+            <size key="intrinsicContentSize" width="41" height="32"/>
         </designable>
         <designable name="qMg-RX-NXM">
-            <size key="intrinsicContentSize" width="103" height="18"/>
+            <size key="intrinsicContentSize" width="103" height="19.5"/>
         </designable>
         <designable name="rId-Ha-Uo7">
             <size key="intrinsicContentSize" width="375" height="182"/>
         </designable>
+        <designable name="rPo-co-HAK">
+            <size key="intrinsicContentSize" width="-1" height="30"/>
+        </designable>
         <designable name="s3M-Bl-d3q">
             <size key="intrinsicContentSize" width="296" height="173"/>
+        </designable>
+        <designable name="sHE-W1-pfQ">
+            <size key="intrinsicContentSize" width="-1" height="65"/>
         </designable>
         <designable name="sIG-u0-bbj">
             <size key="intrinsicContentSize" width="74" height="33"/>
@@ -14847,10 +14862,13 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="106.5" height="22.5"/>
         </designable>
         <designable name="sm0-yc-ZCK">
-            <size key="intrinsicContentSize" width="41" height="33"/>
+            <size key="intrinsicContentSize" width="43" height="34"/>
         </designable>
         <designable name="sqY-IP-OPZ">
-            <size key="intrinsicContentSize" width="81" height="31"/>
+            <size key="intrinsicContentSize" width="78" height="32"/>
+        </designable>
+        <designable name="tAL-kY-5Ah">
+            <size key="intrinsicContentSize" width="-1" height="30"/>
         </designable>
         <designable name="tVp-z7-CcZ">
             <size key="intrinsicContentSize" width="48" height="48"/>
@@ -14859,13 +14877,13 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="48" height="31"/>
         </designable>
         <designable name="uAw-bp-wpN">
-            <size key="intrinsicContentSize" width="86" height="16"/>
+            <size key="intrinsicContentSize" width="83" height="16"/>
         </designable>
         <designable name="ude-Ig-ITk">
-            <size key="intrinsicContentSize" width="57.5" height="18"/>
+            <size key="intrinsicContentSize" width="58.5" height="19.5"/>
         </designable>
         <designable name="ufN-dm-Fwf">
-            <size key="intrinsicContentSize" width="31" height="33"/>
+            <size key="intrinsicContentSize" width="33" height="34"/>
         </designable>
         <designable name="vNn-3n-OZc">
             <size key="intrinsicContentSize" width="17.5" height="22"/>
@@ -14886,7 +14904,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="296" height="173"/>
         </designable>
         <designable name="wLT-ux-9CK">
-            <size key="intrinsicContentSize" width="51" height="31"/>
+            <size key="intrinsicContentSize" width="51" height="32"/>
         </designable>
         <designable name="wUb-fg-r9p">
             <size key="intrinsicContentSize" width="69" height="17"/>
@@ -14901,7 +14919,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="40.5" height="22.5"/>
         </designable>
         <designable name="xgA-Ew-6fa">
-            <size key="intrinsicContentSize" width="60" height="33"/>
+            <size key="intrinsicContentSize" width="57" height="34"/>
         </designable>
         <designable name="xnp-6w-1Sh">
             <size key="intrinsicContentSize" width="30" height="31"/>
@@ -14997,7 +15015,7 @@ typesetting industry. Lorem Ipsum has been the industry's
         <image name="profile_active" width="17" height="17"/>
         <image name="profile_inactive" width="17" height="17"/>
         <image name="radio" width="21" height="21"/>
-        <image name="radio_active" width="18" height="18"/>
+        <image name="radio_active" width="21" height="21"/>
         <image name="radio_button" width="20" height="20"/>
         <image name="radio_button_active" width="20" height="20"/>
         <image name="reject_cross" width="9.5" height="9.5"/>
@@ -15015,7 +15033,7 @@ typesetting industry. Lorem Ipsum has been the industry's
         <image name="send_postdetail" width="12.5" height="12.5"/>
         <image name="share" width="14.5" height="16.5"/>
         <image name="smile" width="17.5" height="17.5"/>
-        <image name="star" width="16.5" height="12"/>
+        <image name="star" width="11.5" height="11.5"/>
         <image name="star_active" width="24" height="23"/>
         <image name="star_empty" width="25" height="24"/>
         <image name="star_pink" width="9" height="9"/>
