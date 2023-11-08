@@ -195,7 +195,7 @@
                                             <subviews>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5Tt-My-6U4">
                                                     <rect key="frame" x="0.0" y="0.0" width="414" height="537"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="320" id="1sV-tH-8JZ"/>
                                                     </constraints>
@@ -253,9 +253,6 @@
                                                                                                             <color key="titleColor" name="#989595"/>
                                                                                                         </state>
                                                                                                         <userDefinedRuntimeAttributes>
-                                                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                                                <real key="value" value="0.0"/>
-                                                                                                            </userDefinedRuntimeAttribute>
                                                                                                             <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
                                                                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                             </userDefinedRuntimeAttribute>
@@ -274,7 +271,7 @@
                                                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O3Y-JD-dEQ">
                                                                                                 <rect key="frame" x="209.5" y="17" width="71.5" height="30"/>
                                                                                                 <subviews>
-                                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgG-j1-jFR" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgG-j1-jFR" customClass="AnimatableButton" customModule="IBAnimatable">
                                                                                                         <rect key="frame" x="0.0" y="0.0" width="71.5" height="30"/>
                                                                                                         <constraints>
                                                                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="6P1-Xv-fIO"/>
@@ -288,9 +285,6 @@
                                                                                                         <userDefinedRuntimeAttributes>
                                                                                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                                                                 <real key="value" value="10"/>
-                                                                                                            </userDefinedRuntimeAttribute>
-                                                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                                                                <real key="value" value="0.0"/>
                                                                                                             </userDefinedRuntimeAttribute>
                                                                                                             <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
                                                                                                                 <color key="value" name="#EFF0F1"/>
@@ -311,9 +305,6 @@
                                                                                     <constraint firstItem="8XX-sX-nmo" firstAttribute="leading" secondItem="gB8-Lp-29g" secondAttribute="leading" id="ewp-D1-z6X"/>
                                                                                 </constraints>
                                                                                 <userDefinedRuntimeAttributes>
-                                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                                        <real key="value" value="0.0"/>
-                                                                                    </userDefinedRuntimeAttribute>
                                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                                         <real key="value" value="5"/>
                                                                                     </userDefinedRuntimeAttribute>
@@ -343,20 +334,11 @@
                                                                             <constraint firstItem="gB8-Lp-29g" firstAttribute="leading" secondItem="akA-PT-Jus" secondAttribute="leading" constant="5" id="lKE-rv-6ao"/>
                                                                         </constraints>
                                                                         <userDefinedRuntimeAttributes>
-                                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                                <real key="value" value="0.0"/>
-                                                                            </userDefinedRuntimeAttribute>
                                                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                                 <real key="value" value="15"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                             <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
                                                                                 <point key="value" x="0.0" y="0.0"/>
-                                                                            </userDefinedRuntimeAttribute>
-                                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                                                <real key="value" value="0.0"/>
-                                                                            </userDefinedRuntimeAttribute>
-                                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                                                                <real key="value" value="0.0"/>
                                                                             </userDefinedRuntimeAttribute>
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
@@ -368,17 +350,12 @@
                                                                     <constraint firstItem="akA-PT-Jus" firstAttribute="leading" secondItem="pOe-Ip-NVh" secondAttribute="leading" id="Hzo-E2-lfa"/>
                                                                 </constraints>
                                                                 <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                        <real key="value" value="0.0"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                                                        <real key="value" value="0.0"/>
-                                                                    </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                                         <real key="value" value="5"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </collectionViewCellContentView>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <size key="customSize" width="299" height="284"/>
                                                             <connections>
                                                                 <outlet property="amountLbl" destination="Eh6-qh-fK3" id="ujF-yz-hyo"/>
@@ -725,7 +702,7 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="372" height="50"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important Details" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdb-nU-Jgi">
-                                                                                <rect key="frame" x="15" y="15.5" width="121.5" height="19.5"/>
+                                                                                <rect key="frame" x="15" y="15.500000000000002" width="121.5" height="19.5"/>
                                                                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
                                                                                 <color key="textColor" name="#190000"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1855,14 +1832,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CategoryDetailCell" id="l4k-vj-AQV" customClass="CategoryDetailCell" customModule="BList" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="55.5" width="414" height="111"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="113"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l4k-vj-AQV" id="WnC-RO-Vd7">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="111"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="113"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IVk-JS-yl3" customClass="AnimatableView" customModule="IBAnimatable">
-                                                    <rect key="frame" x="20" y="0.0" width="374" height="108"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="110"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dating" translatesAutoresizingMaskIntoConstraints="NO" id="A80-Rg-lWf" customClass="AnimatableImageView" customModule="IBAnimatable">
                                                             <rect key="frame" x="10" y="10" width="77.5" height="77.5"/>
@@ -1885,17 +1862,14 @@
                                                             <color key="textColor" name="#252634_"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9q-nw-vfk">
-                                                            <rect key="frame" x="97.5" y="10" width="256.5" height="44"/>
-                                                            <string key="text">Find experiences for any occasion or 
-budget. It can be anything from a first date 
-to an anniversary celebration.</string>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="bjhdwbcdbcbdhjcbdhjcbdbcdbjhcbdjbcjdbc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9q-nw-vfk">
+                                                            <rect key="frame" x="97.5" y="10" width="256.5" height="46"/>
                                                             <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="12"/>
                                                             <color key="textColor" name="#989595"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="xt6-Y4-wDK" customClass="AnimatableStackView" customModule="IBAnimatable">
-                                                            <rect key="frame" x="97.5" y="62" width="256.5" height="35"/>
+                                                            <rect key="frame" x="97.5" y="64" width="256.5" height="35"/>
                                                             <subviews>
                                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="What Would You Like To Do?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Fn-9g-7nK" customClass="AnimatableTextField" customModule="IBAnimatable">
                                                                     <rect key="frame" x="0.0" y="10.5" width="181.5" height="14"/>
@@ -1995,6 +1969,7 @@ to an anniversary celebration.</string>
                                                         <constraint firstItem="Ocr-qg-59K" firstAttribute="leading" secondItem="IVk-JS-yl3" secondAttribute="leading" constant="5" id="IYg-Ts-oDv"/>
                                                         <constraint firstItem="xt6-Y4-wDK" firstAttribute="leading" secondItem="c9q-nw-vfk" secondAttribute="leading" id="VWz-9J-uZk"/>
                                                         <constraint firstAttribute="trailing" secondItem="xt6-Y4-wDK" secondAttribute="trailing" constant="20" id="VYG-Tg-79s"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Ocr-qg-59K" secondAttribute="bottom" constant="5" id="XRJ-bh-BTw"/>
                                                         <constraint firstItem="Ocr-qg-59K" firstAttribute="top" secondItem="A80-Rg-lWf" secondAttribute="bottom" id="cSd-Lx-0lb"/>
                                                         <constraint firstItem="c9q-nw-vfk" firstAttribute="leading" secondItem="A80-Rg-lWf" secondAttribute="trailing" constant="10" id="egF-ad-PTb"/>
                                                         <constraint firstAttribute="bottom" secondItem="xt6-Y4-wDK" secondAttribute="bottom" constant="11" id="t9Y-m9-Xxs"/>
@@ -2026,7 +2001,7 @@ to an anniversary celebration.</string>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ExperienceCell" rowHeight="393" id="gyV-j7-GtZ" customClass="ExperienceCell" customModule="BList" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="166.5" width="414" height="393"/>
+                                        <rect key="frame" x="0.0" y="168.5" width="414" height="393"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gyV-j7-GtZ" id="zJ5-gN-aEK">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="393"/>
@@ -4529,7 +4504,7 @@ New york</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lEt-Cn-Qf4">
-                                                                <rect key="frame" x="305" y="-0.5" width="70" height="47"/>
+                                                                <rect key="frame" x="305" y="0.0" width="70" height="46.5"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="70" id="h2d-QA-Nzx"/>
                                                                     <constraint firstAttribute="width" secondItem="lEt-Cn-Qf4" secondAttribute="height" multiplier="3:2" id="rZi-vk-2nV"/>
@@ -6269,7 +6244,7 @@ New york</string>
         <image name="search_ex" width="17" height="17"/>
         <image name="send_feed" width="50.5" height="50"/>
         <image name="star_pink" width="9" height="9"/>
-        <image name="tick" width="18" height="13.5"/>
+        <image name="tick" width="18.5" height="13.5"/>
         <image name="twitter_profile" width="24" height="24"/>
         <image name="video_img" width="296" height="173"/>
         <image name="website_circle" width="18" height="18"/>

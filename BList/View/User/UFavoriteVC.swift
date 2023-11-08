@@ -61,7 +61,7 @@ extension UFavoriteVC: UICollectionViewDataSource, UICollectionViewDelegateFlowL
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = (self.collectionView.frame.size.width - 40) / 2
-        return CGSize(width: width, height: 170)
+        return CGSize(width: width, height: 280)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         userVM.expIds.append(userVM.favouritesList[indexPath.row].experienceID ?? "0")
