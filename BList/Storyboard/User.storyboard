@@ -10115,7 +10115,7 @@ verification badge</string>
                                         <rect key="frame" x="0.0" y="89" width="375" height="469"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJ0-oM-PhI">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="545"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="541"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ft5-f1-wBS">
                                                         <rect key="frame" x="20" y="20" width="325" height="34"/>
@@ -10189,7 +10189,7 @@ verification badge</string>
                                                         </connections>
                                                     </collectionView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sHE-W1-pfQ" customClass="RangeSeekSlider" customModule="BList" customModuleProvider="target">
-                                                        <rect key="frame" x="5" y="89.5" width="365" height="30"/>
+                                                        <rect key="frame" x="5" y="88.5" width="365" height="30"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="tintColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
@@ -10242,49 +10242,49 @@ verification badge</string>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOR-dc-SwR">
-                                                        <rect key="frame" x="20" y="67" width="29.5" height="17.5"/>
+                                                        <rect key="frame" x="20" y="67" width="32" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1t-hD-80P">
-                                                        <rect key="frame" x="20" y="139.5" width="25.5" height="17.5"/>
+                                                        <rect key="frame" x="20" y="138.5" width="27.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fy9-9P-h8r">
-                                                        <rect key="frame" x="297" y="67" width="58" height="17.5"/>
+                                                        <rect key="frame" x="292" y="67" width="63" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1000+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMn-Qj-DrM">
-                                                        <rect key="frame" x="305.5" y="139.5" width="49.5" height="17.5"/>
+                                                        <rect key="frame" x="307.5" y="138.5" width="47.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rr3-iX-aPx">
-                                                        <rect key="frame" x="20" y="169" width="29" height="17.5"/>
+                                                        <rect key="frame" x="20" y="167" width="29.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhX-EW-YIh">
-                                                        <rect key="frame" x="20" y="252.5" width="30.5" height="17.5"/>
+                                                        <rect key="frame" x="20" y="249.5" width="31" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQc-iX-dxh">
-                                                        <rect key="frame" x="172.5" y="169" width="52" height="17.5"/>
+                                                        <rect key="frame" x="172.5" y="167" width="54.5" height="16.5"/>
                                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="14"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lcn-iv-I4D">
-                                                        <rect key="frame" x="20" y="194.5" width="335" height="45"/>
+                                                        <rect key="frame" x="20" y="191.5" width="335" height="45"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="13/04/2022" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LXR-gm-sX3" customClass="AnimatableTextField" customModule="IBAnimatable">
                                                                 <rect key="frame" x="0.0" y="0.0" width="142.5" height="45"/>
@@ -10327,7 +10327,7 @@ verification badge</string>
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Pib-LT-OsV">
-                                                        <rect key="frame" x="20" y="277" width="347" height="45"/>
+                                                        <rect key="frame" x="20" y="273" width="347" height="45"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEY-zX-EM5">
                                                                 <rect key="frame" x="0.0" y="0.0" width="31" height="45"/>
@@ -10400,7 +10400,7 @@ verification badge</string>
                                                         </constraints>
                                                     </stackView>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="cQM-ge-asP">
-                                                        <rect key="frame" x="19" y="335" width="346" height="200"/>
+                                                        <rect key="frame" x="19" y="331" width="346" height="200"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="200" id="XbU-4f-G2B"/>
@@ -10714,7 +10714,7 @@ verification badge</string>
                                         </connections>
                                     </collectionView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search by Creator ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7T3-sE-9Nv">
-                                        <rect key="frame" x="22" y="141" width="123.5" height="17.5"/>
+                                        <rect key="frame" x="22" y="141" width="131" height="17.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17.5" id="vMO-Eo-h4I"/>
                                         </constraints>
@@ -10743,7 +10743,7 @@ verification badge</string>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search by keyword" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aE-Xl-FMW">
-                                        <rect key="frame" x="20" y="225.5" width="113.5" height="17.5"/>
+                                        <rect key="frame" x="20" y="225.5" width="120.5" height="17.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17.5" id="oNT-0N-g1b"/>
                                         </constraints>
@@ -10772,7 +10772,7 @@ verification badge</string>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56C-dG-7x8">
-                                        <rect key="frame" x="20" y="310" width="79.5" height="17.5"/>
+                                        <rect key="frame" x="20" y="310" width="84" height="17.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="17.5" id="FfI-Vh-prl"/>
                                         </constraints>
@@ -13879,10 +13879,10 @@ typesetting industry. Lorem Ipsum has been the industry's
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmb-Zh-G9e" customClass="AnimatableView" customModule="IBAnimatable">
-                                <rect key="frame" x="0.0" y="365" width="375" height="302"/>
+                                <rect key="frame" x="0.0" y="366" width="375" height="301"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Creator Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ws5-hE-Z3B">
-                                        <rect key="frame" x="107" y="24" width="161.5" height="22"/>
+                                        <rect key="frame" x="102.5" y="24" width="170.5" height="21"/>
                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="18"/>
                                         <color key="textColor" red="0.074509803920000006" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -13901,7 +13901,7 @@ typesetting industry. Lorem Ipsum has been the industry's
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="0AK-xR-H4t">
-                                        <rect key="frame" x="22.5" y="230" width="330" height="45"/>
+                                        <rect key="frame" x="22.5" y="229" width="330" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIG-u0-bbj" customClass="AnimatableButton" customModule="IBAnimatable">
                                                 <rect key="frame" x="0.0" y="0.0" width="156" height="45"/>
@@ -13951,7 +13951,7 @@ typesetting industry. Lorem Ipsum has been the industry's
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="L2b-v7-iRc">
-                                        <rect key="frame" x="18" y="75" width="339" height="116"/>
+                                        <rect key="frame" x="18" y="74" width="339" height="116"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zwR-ay-PmG" customClass="AnimatableView" customModule="IBAnimatable">
                                                 <rect key="frame" x="0.0" y="0.0" width="339" height="50"/>
@@ -14138,129 +14138,134 @@ typesetting industry. Lorem Ipsum has been the industry's
                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExperienceDetailsCell" id="xV8-Rr-xQ5" customClass="ExperienceDetailsCell" customModule="BList" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="7.5" width="112" height="109"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mgG-KX-xWw">
+                                                <collectionViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mgG-KX-xWw" customClass="AnimatableView" customModule="IBAnimatable">
                                                     <rect key="frame" x="0.0" y="0.0" width="112" height="109"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
-                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Em7-FS-IXf" customClass="AnimatableView" customModule="IBAnimatable">
-                                                            <rect key="frame" x="0.0" y="0.0" width="112" height="109"/>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Em7-FS-IXf" userLabel="MainView" customClass="AnimatableView" customModule="IBAnimatable">
+                                                            <rect key="frame" x="0.0" y="0.0" width="112" height="104"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="249" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="N64-lY-G4r" customClass="AnimatableImageView" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="109"/>
+                                                                    <rect key="frame" x="5" y="5" width="102" height="72"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="200" id="DOd-VL-oct"/>
+                                                                    </constraints>
                                                                     <userDefinedRuntimeAttributes>
                                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                            <real key="value" value="10"/>
+                                                                            <real key="value" value="15"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </imageView>
-                                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xoo-gg-mMN" customClass="AnimatableView" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="109"/>
+                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xoo-gg-mMN" userLabel="SubView" customClass="AnimatableView" customModule="IBAnimatable">
+                                                                    <rect key="frame" x="5" y="82" width="102" height="17"/>
                                                                     <subviews>
-                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BgY-iD-BPM">
-                                                                            <rect key="frame" x="5" y="42.5" width="102" height="61.5"/>
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Kt-So-dQ7">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="102" height="30"/>
                                                                             <subviews>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tast, Texture &amp; Flavors of New york" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Os-1G-tyU">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="102" height="29.5"/>
-                                                                                    <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="12"/>
-                                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                    <nil key="highlightedColor"/>
-                                                                                </label>
-                                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hsR-VM-vJI">
-                                                                                    <rect key="frame" x="0.0" y="39.5" width="102" height="22"/>
+                                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BgY-iD-BPM">
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
                                                                                     <subviews>
-                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POv-I1-rA5">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="42" height="22"/>
-                                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="12"/>
-                                                                                            <color key="textColor" name="AppOrange"/>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tast, Texture &amp; Flavors of New york" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Os-1G-tyU">
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="52" height="6.5"/>
+                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                            <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
+                                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             <nil key="highlightedColor"/>
                                                                                         </label>
-                                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2r-fZ-UNw">
-                                                                                            <rect key="frame" x="52" y="0.0" width="50" height="22"/>
+                                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6K-7K-lsp" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                                                            <rect key="frame" x="0.0" y="11.5" width="52" height="7"/>
+                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             <constraints>
-                                                                                                <constraint firstAttribute="width" constant="50" id="v0W-nq-e2e"/>
+                                                                                                <constraint firstAttribute="height" constant="18" id="coS-3W-8Zk"/>
                                                                                             </constraints>
-                                                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
-                                                                                            <state key="normal" image="heart_gray"/>
+                                                                                            <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
+                                                                                            <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="10" maxY="0.0"/>
+                                                                                            <inset key="imageEdgeInsets" minX="-7" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                                            <state key="normal" title="Dating" image="dating_symbol">
+                                                                                                <color key="titleColor" name="#989595"/>
+                                                                                            </state>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                                                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                            </userDefinedRuntimeAttributes>
                                                                                         </button>
+                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POv-I1-rA5">
+                                                                                            <rect key="frame" x="0.0" y="23.5" width="41.5" height="6.5"/>
+                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="15"/>
+                                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                            <nil key="highlightedColor"/>
+                                                                                        </label>
                                                                                     </subviews>
                                                                                 </stackView>
+                                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BOq-mx-Pab">
+                                                                                    <rect key="frame" x="52" y="0.0" width="50" height="30"/>
+                                                                                    <subviews>
+                                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-R9-9Oj" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
+                                                                                            <constraints>
+                                                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="ifO-D6-AMM"/>
+                                                                                                <constraint firstAttribute="height" constant="30" id="ucK-YI-PqO"/>
+                                                                                            </constraints>
+                                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="11"/>
+                                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                                            <state key="normal" title="online">
+                                                                                                <color key="titleColor" name="#252634_"/>
+                                                                                            </state>
+                                                                                            <userDefinedRuntimeAttributes>
+                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                                    <real key="value" value="10"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                                                                                    <color key="value" name="#EFF0F1"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                            </userDefinedRuntimeAttributes>
+                                                                                        </button>
+                                                                                    </subviews>
+                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                </stackView>
                                                                             </subviews>
+                                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </stackView>
                                                                     </subviews>
-                                                                    <color key="backgroundColor" name="BlurColor"/>
                                                                     <constraints>
-                                                                        <constraint firstItem="BgY-iD-BPM" firstAttribute="leading" secondItem="Xoo-gg-mMN" secondAttribute="leading" constant="5" id="8on-wK-ddx"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="BgY-iD-BPM" secondAttribute="trailing" constant="5" id="RFk-sT-Umj"/>
-                                                                        <constraint firstAttribute="bottom" secondItem="BgY-iD-BPM" secondAttribute="bottom" constant="5" id="sT5-yX-3Ga"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="3Kt-So-dQ7" secondAttribute="trailing" id="AGy-Fa-Gdz"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="3Kt-So-dQ7" secondAttribute="bottom" id="P4q-hI-hhR"/>
+                                                                        <constraint firstItem="3Kt-So-dQ7" firstAttribute="top" secondItem="Xoo-gg-mMN" secondAttribute="top" id="RoZ-D8-wp7"/>
+                                                                        <constraint firstItem="3Kt-So-dQ7" firstAttribute="leading" secondItem="Xoo-gg-mMN" secondAttribute="leading" id="VYV-8n-u5V"/>
                                                                     </constraints>
                                                                     <userDefinedRuntimeAttributes>
                                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                            <real key="value" value="10"/>
+                                                                            <real key="value" value="5"/>
                                                                         </userDefinedRuntimeAttribute>
                                                                     </userDefinedRuntimeAttributes>
                                                                 </view>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6K-7K-lsp" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="53" y="10" width="49" height="18"/>
-                                                                    <color key="backgroundColor" red="1" green="0.91372549020000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2r-fZ-UNw">
+                                                                    <rect key="frame" x="67" y="15" width="30" height="30"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="18" id="coS-3W-8Zk"/>
+                                                                        <constraint firstAttribute="width" constant="30" id="aTh-JA-jyl"/>
+                                                                        <constraint firstAttribute="height" constant="30" id="y7r-qN-Wa1"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="8"/>
-                                                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="8" maxY="0.0"/>
-                                                                    <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                    <state key="normal" title="Dating" image="dating_symbol">
-                                                                        <color key="titleColor" red="1" green="0.31372549020000001" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                    </state>
-                                                                    <userDefinedRuntimeAttributes>
-                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                            <real key="value" value="9"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                    </userDefinedRuntimeAttributes>
-                                                                </button>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-R9-9Oj" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="10" y="10" width="32" height="16"/>
-                                                                    <color key="backgroundColor" name="AppOrange"/>
-                                                                    <constraints>
-                                                                        <constraint firstAttribute="height" constant="16" id="ucK-YI-PqO"/>
-                                                                    </constraints>
-                                                                    <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="8"/>
-                                                                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
-                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                    <state key="normal" title="online">
-                                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                    </state>
-                                                                    <userDefinedRuntimeAttributes>
-                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                            <real key="value" value="8"/>
-                                                                        </userDefinedRuntimeAttribute>
-                                                                    </userDefinedRuntimeAttributes>
+                                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                                                    <state key="normal" image="heart_gray"/>
                                                                 </button>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                             <constraints>
-                                                                <constraint firstItem="Xoo-gg-mMN" firstAttribute="trailing" secondItem="N64-lY-G4r" secondAttribute="trailing" id="1fu-jx-5NA"/>
-                                                                <constraint firstItem="Xoo-gg-mMN" firstAttribute="bottom" secondItem="N64-lY-G4r" secondAttribute="bottom" id="D5v-c8-9kh"/>
-                                                                <constraint firstItem="Xoo-gg-mMN" firstAttribute="leading" secondItem="N64-lY-G4r" secondAttribute="leading" id="GX0-iM-qY8"/>
-                                                                <constraint firstAttribute="trailing" secondItem="N64-lY-G4r" secondAttribute="trailing" id="HpH-l5-eVJ"/>
-                                                                <constraint firstItem="N64-lY-G4r" firstAttribute="leading" secondItem="Em7-FS-IXf" secondAttribute="leading" id="Nhl-lx-SyN"/>
-                                                                <constraint firstAttribute="bottom" secondItem="N64-lY-G4r" secondAttribute="bottom" id="Or5-uX-jLg"/>
-                                                                <constraint firstItem="Xoo-gg-mMN" firstAttribute="top" secondItem="Em7-FS-IXf" secondAttribute="top" id="atz-9H-ujH"/>
-                                                                <constraint firstItem="K6K-7K-lsp" firstAttribute="top" secondItem="Em7-FS-IXf" secondAttribute="top" constant="10" id="bSd-NB-57a"/>
-                                                                <constraint firstItem="IJr-R9-9Oj" firstAttribute="top" secondItem="Em7-FS-IXf" secondAttribute="top" constant="10" id="lk8-GZ-IKb"/>
-                                                                <constraint firstItem="N64-lY-G4r" firstAttribute="top" secondItem="Em7-FS-IXf" secondAttribute="top" id="m5c-vF-fhA"/>
-                                                                <constraint firstItem="IJr-R9-9Oj" firstAttribute="leading" secondItem="Em7-FS-IXf" secondAttribute="leading" constant="10" id="m6d-rj-aMo"/>
-                                                                <constraint firstAttribute="trailing" secondItem="K6K-7K-lsp" secondAttribute="trailing" constant="10" id="yb7-4T-Ljw"/>
+                                                                <constraint firstAttribute="trailing" secondItem="N64-lY-G4r" secondAttribute="trailing" constant="5" id="4wO-PY-3fn"/>
+                                                                <constraint firstAttribute="bottom" secondItem="Xoo-gg-mMN" secondAttribute="bottom" constant="5" id="HSS-bD-viZ"/>
+                                                                <constraint firstItem="Xoo-gg-mMN" firstAttribute="top" secondItem="N64-lY-G4r" secondAttribute="bottom" constant="5" id="SQM-LS-CSR"/>
+                                                                <constraint firstItem="c2r-fZ-UNw" firstAttribute="top" secondItem="N64-lY-G4r" secondAttribute="top" constant="10" id="WTZ-4M-x4L"/>
+                                                                <constraint firstItem="N64-lY-G4r" firstAttribute="leading" secondItem="Em7-FS-IXf" secondAttribute="leading" constant="5" id="YxY-Qn-rgx"/>
+                                                                <constraint firstItem="N64-lY-G4r" firstAttribute="trailing" secondItem="c2r-fZ-UNw" secondAttribute="trailing" constant="10" id="bez-Vk-GmB"/>
+                                                                <constraint firstAttribute="trailing" secondItem="Xoo-gg-mMN" secondAttribute="trailing" constant="5" id="gUn-tf-5gY"/>
+                                                                <constraint firstItem="N64-lY-G4r" firstAttribute="top" secondItem="Em7-FS-IXf" secondAttribute="top" constant="5" id="hln-8y-bj2"/>
+                                                                <constraint firstItem="Xoo-gg-mMN" firstAttribute="leading" secondItem="Em7-FS-IXf" secondAttribute="leading" constant="5" id="xIw-06-es2"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="10"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
-                                                                    <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                                                    <real key="value" value="0.5"/>
+                                                                    <real key="value" value="15"/>
                                                                 </userDefinedRuntimeAttribute>
                                                                 <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
                                                                     <point key="value" x="0.0" y="0.0"/>
@@ -14269,11 +14274,16 @@ typesetting industry. Lorem Ipsum has been the industry's
                                                         </view>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="Em7-FS-IXf" firstAttribute="top" secondItem="mgG-KX-xWw" secondAttribute="top" id="B9T-Yl-GBW"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Em7-FS-IXf" secondAttribute="bottom" id="ir3-DV-sTf"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Em7-FS-IXf" secondAttribute="trailing" id="pTU-Hv-CET"/>
-                                                        <constraint firstItem="Em7-FS-IXf" firstAttribute="leading" secondItem="mgG-KX-xWw" secondAttribute="leading" id="ufC-EZ-3Bl"/>
+                                                        <constraint firstItem="Em7-FS-IXf" firstAttribute="top" secondItem="mgG-KX-xWw" secondAttribute="top" id="Klf-Pt-WTg"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Em7-FS-IXf" secondAttribute="bottom" constant="5" id="e71-cF-tV6"/>
+                                                        <constraint firstItem="Em7-FS-IXf" firstAttribute="leading" secondItem="mgG-KX-xWw" secondAttribute="leading" id="iWZ-In-91a"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Em7-FS-IXf" secondAttribute="trailing" id="kOR-I5-LkW"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </collectionViewCellContentView>
                                                 <connections>
                                                     <outlet property="amountLbl" destination="POv-I1-rA5" id="TKZ-gg-akn"/>
@@ -14290,24 +14300,23 @@ typesetting industry. Lorem Ipsum has been the industry's
                                             <outlet property="delegate" destination="vSG-St-Kfa" id="4YH-dG-Qo5"/>
                                         </connections>
                                     </collectionView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e54-1V-qk8">
+                                        <rect key="frame" x="0.0" y="631" width="345" height="0.0"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="14"/>
+                                        <color key="textColor" name="#190000"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </stackView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e54-1V-qk8">
-                                <rect key="frame" x="162" y="324" width="49.5" height="17.5"/>
-                                <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="14"/>
-                                <color key="textColor" name="#190000"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tye-OW-Ib8"/>
                         <color key="backgroundColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LPy-K9-Vyr" firstAttribute="top" secondItem="Tye-OW-Ib8" secondAttribute="top" constant="12" id="0IB-na-HUx"/>
                             <constraint firstItem="3X6-Do-wfn" firstAttribute="centerY" secondItem="LPy-K9-Vyr" secondAttribute="centerY" id="6Ds-xw-7Y5"/>
-                            <constraint firstItem="e54-1V-qk8" firstAttribute="centerY" secondItem="Tye-OW-Ib8" secondAttribute="centerY" id="I67-Ti-l6d"/>
                             <constraint firstAttribute="trailing" secondItem="c6p-BQ-V81" secondAttribute="trailing" constant="15" id="Mya-J9-JVx"/>
                             <constraint firstItem="3X6-Do-wfn" firstAttribute="leading" secondItem="Tye-OW-Ib8" secondAttribute="leading" constant="12" id="Osi-IY-OvM"/>
-                            <constraint firstItem="e54-1V-qk8" firstAttribute="centerX" secondItem="Tye-OW-Ib8" secondAttribute="centerX" id="Q77-Ho-MQi"/>
                             <constraint firstItem="LPy-K9-Vyr" firstAttribute="centerX" secondItem="Tye-OW-Ib8" secondAttribute="centerX" id="XqI-mH-j8f"/>
                             <constraint firstItem="c6p-BQ-V81" firstAttribute="bottom" secondItem="Tye-OW-Ib8" secondAttribute="bottom" id="Yu3-Xd-lC9"/>
                             <constraint firstItem="3X6-Do-wfn" firstAttribute="width" secondItem="3X6-Do-wfn" secondAttribute="height" multiplier="1:1" id="YwN-Qu-ow3"/>
@@ -14532,7 +14541,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="80.5" height="13"/>
         </designable>
         <designable name="4mY-GO-rCI">
-            <size key="intrinsicContentSize" width="136" height="19.5"/>
+            <size key="intrinsicContentSize" width="133.5" height="18"/>
         </designable>
         <designable name="5QF-NZ-PM7">
             <size key="intrinsicContentSize" width="169" height="33"/>
@@ -14562,7 +14571,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="32" height="10"/>
         </designable>
         <designable name="8hg-p8-G6F">
-            <size key="intrinsicContentSize" width="35" height="30"/>
+            <size key="intrinsicContentSize" width="36" height="29"/>
         </designable>
         <designable name="8uh-Ek-Cks">
             <size key="intrinsicContentSize" width="30" height="32"/>
@@ -14589,7 +14598,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="225" height="225"/>
         </designable>
         <designable name="C7g-Ut-aSU">
-            <size key="intrinsicContentSize" width="62" height="33.5"/>
+            <size key="intrinsicContentSize" width="62" height="33"/>
         </designable>
         <designable name="CP3-rU-QGn">
             <size key="intrinsicContentSize" width="74" height="72"/>
@@ -14601,7 +14610,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="69" height="34"/>
         </designable>
         <designable name="G7j-9m-EqA">
-            <size key="intrinsicContentSize" width="74" height="30"/>
+            <size key="intrinsicContentSize" width="79" height="29"/>
         </designable>
         <designable name="GXH-mW-yaF">
             <size key="intrinsicContentSize" width="47.5" height="12"/>
@@ -14616,16 +14625,16 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="-1" height="30"/>
         </designable>
         <designable name="IJr-R9-9Oj">
-            <size key="intrinsicContentSize" width="32" height="10"/>
+            <size key="intrinsicContentSize" width="30" height="26"/>
         </designable>
         <designable name="IeU-fZ-Sak">
             <size key="intrinsicContentSize" width="45" height="34"/>
         </designable>
         <designable name="K6K-7K-lsp">
-            <size key="intrinsicContentSize" width="49" height="10"/>
+            <size key="intrinsicContentSize" width="66" height="18"/>
         </designable>
         <designable name="K95-HR-sHa">
-            <size key="intrinsicContentSize" width="41" height="32"/>
+            <size key="intrinsicContentSize" width="41" height="31"/>
         </designable>
         <designable name="LFx-5l-bnR">
             <size key="intrinsicContentSize" width="37" height="34"/>
@@ -14634,7 +14643,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="80" height="18"/>
         </designable>
         <designable name="LXR-gm-sX3">
-            <size key="intrinsicContentSize" width="96" height="19.5"/>
+            <size key="intrinsicContentSize" width="88" height="18"/>
         </designable>
         <designable name="MqH-O5-vD5">
             <size key="intrinsicContentSize" width="39" height="32"/>
@@ -14697,7 +14706,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="30" height="32"/>
         </designable>
         <designable name="Tix-dv-xXg">
-            <size key="intrinsicContentSize" width="35" height="30"/>
+            <size key="intrinsicContentSize" width="36" height="29"/>
         </designable>
         <designable name="Uhu-so-QFO">
             <size key="intrinsicContentSize" width="18" height="18"/>
@@ -14736,7 +14745,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="84.5" height="22.5"/>
         </designable>
         <designable name="Zuc-Vp-6PV">
-            <size key="intrinsicContentSize" width="28" height="15"/>
+            <size key="intrinsicContentSize" width="29.5" height="14"/>
         </designable>
         <designable name="cCn-7t-eef">
             <size key="intrinsicContentSize" width="35" height="23.5"/>
@@ -14772,7 +14781,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
         <designable name="gAU-Bd-rnN">
-            <size key="intrinsicContentSize" width="58.5" height="19.5"/>
+            <size key="intrinsicContentSize" width="57.5" height="18"/>
         </designable>
         <designable name="gcn-aP-dy4">
             <size key="intrinsicContentSize" width="5" height="16"/>
@@ -14820,16 +14829,16 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="78" height="34"/>
         </designable>
         <designable name="pj0-de-a0u">
-            <size key="intrinsicContentSize" width="74" height="30"/>
+            <size key="intrinsicContentSize" width="79" height="29"/>
         </designable>
         <designable name="pqI-mc-F1j">
             <size key="intrinsicContentSize" width="149" height="114"/>
         </designable>
         <designable name="qEG-8Q-8T6">
-            <size key="intrinsicContentSize" width="41" height="32"/>
+            <size key="intrinsicContentSize" width="41" height="31"/>
         </designable>
         <designable name="qMg-RX-NXM">
-            <size key="intrinsicContentSize" width="103" height="19.5"/>
+            <size key="intrinsicContentSize" width="103" height="18"/>
         </designable>
         <designable name="rId-Ha-Uo7">
             <size key="intrinsicContentSize" width="375" height="182"/>
@@ -14840,11 +14849,8 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="s3M-Bl-d3q">
             <size key="intrinsicContentSize" width="296" height="173"/>
         </designable>
-        <designable name="sHE-W1-pfQ">
-            <size key="intrinsicContentSize" width="-1" height="65"/>
-        </designable>
         <designable name="sIG-u0-bbj">
-            <size key="intrinsicContentSize" width="70.5" height="33.5"/>
+            <size key="intrinsicContentSize" width="74" height="33"/>
         </designable>
         <designable name="sOl-vC-zH6">
             <size key="intrinsicContentSize" width="296" height="173"/>
@@ -14877,7 +14883,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="83" height="16"/>
         </designable>
         <designable name="ude-Ig-ITk">
-            <size key="intrinsicContentSize" width="58.5" height="19.5"/>
+            <size key="intrinsicContentSize" width="57.5" height="18"/>
         </designable>
         <designable name="ufN-dm-Fwf">
             <size key="intrinsicContentSize" width="33" height="34"/>
