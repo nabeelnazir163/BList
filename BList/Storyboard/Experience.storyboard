@@ -3542,13 +3542,13 @@
                                 <rect key="frame" x="0.0" y="246" width="414" height="650"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Date &amp; Time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEj-fk-5KD">
-                                        <rect key="frame" x="124" y="32" width="166" height="21"/>
+                                        <rect key="frame" x="128.5" y="32" width="157" height="22"/>
                                         <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="18"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAr-th-EHW">
-                                        <rect key="frame" x="366" y="30" width="25" height="25"/>
+                                        <rect key="frame" x="366" y="30.5" width="25" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="25" id="298-iU-DHB"/>
                                             <constraint firstAttribute="height" constant="25" id="Ja6-3v-gWV"/>
@@ -3560,7 +3560,7 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="0pv-CO-fqY">
-                                        <rect key="frame" x="16" y="82" width="382" height="278"/>
+                                        <rect key="frame" x="16" y="82.5" width="382" height="278"/>
                                         <subviews>
                                             <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="MTk-Wq-lun">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
@@ -3694,7 +3694,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncr-kU-qjw">
-                                        <rect key="frame" x="19" y="381" width="93.5" height="22"/>
+                                        <rect key="frame" x="19" y="381.5" width="88.5" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="qXL-zP-nGk"/>
                                         </constraints>
@@ -3703,7 +3703,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="GCi-Yk-h3u">
-                                        <rect key="frame" x="16" y="414" width="382" height="126"/>
+                                        <rect key="frame" x="16" y="414.5" width="382" height="125.5"/>
                                         <subviews>
                                             <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yhe-n6-Uip">
                                                 <rect key="frame" x="0.0" y="-100" width="382" height="100"/>
@@ -3726,7 +3726,7 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 September" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnE-4U-l06">
-                                                                    <rect key="frame" x="8" y="4" width="71" height="14"/>
+                                                                    <rect key="frame" x="8" y="4" width="71" height="15"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="71" id="5Vt-OH-32Q"/>
                                                                     </constraints>
@@ -3735,7 +3735,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FE7-kr-ML7">
-                                                                    <rect key="frame" x="84" y="11" width="102" height="0.5"/>
+                                                                    <rect key="frame" x="84" y="11.5" width="102" height="0.5"/>
                                                                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="0.5" id="0c8-4R-Hbx"/>
@@ -3787,7 +3787,7 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <subviews>
                                                                 <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTh-Ks-vnu" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                    <rect key="frame" x="3" y="28.5" width="101" height="24"/>
+                                                                    <rect key="frame" x="3" y="28.5" width="97" height="24"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="15"/>
                                                                     <state key="normal" title="Show More" image="double_arrow">
                                                                         <color key="titleColor" red="0.97647058819999999" green="0.41568627450000001" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3819,7 +3819,7 @@
                                                 </connections>
                                             </collectionView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spZ-Ds-qUA" customClass="CustomRightImageButton" customModule="BList" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="43.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="41.5"/>
                                                 <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="13"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal">
@@ -3838,16 +3838,16 @@
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Ceq-S8-WkA">
-                                                <rect key="frame" x="0.0" y="58.5" width="382" height="67.5"/>
+                                                <rect key="frame" x="0.0" y="56.5" width="382" height="69"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do you want to put in the request for the experience date and time?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5k-37-Aiy">
-                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="37.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="39"/>
                                                         <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="48f-5h-xcD">
-                                                        <rect key="frame" x="0.0" y="47.5" width="382" height="20"/>
+                                                        <rect key="frame" x="0.0" y="49" width="382" height="20"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiL-Id-nAK">
                                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="20"/>
@@ -3891,19 +3891,19 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6nk-0p-nI6">
-                                                        <rect key="frame" x="0.0" y="67.5" width="382" height="106"/>
+                                                        <rect key="frame" x="0.0" y="69" width="382" height="106"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="0r3-Fd-aAT">
                                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="48"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Request" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-ys-mhe">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="98" height="48"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="92" height="48"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="16"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="June 19,2019" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TYU-Jl-kuF" customClass="AnimatableTextField" customModule="IBAnimatable">
-                                                                        <rect key="frame" x="123" y="0.0" width="259" height="48"/>
+                                                                        <rect key="frame" x="117" y="0.0" width="265" height="48"/>
                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                                         <textInputTraits key="textInputTraits"/>
@@ -3932,13 +3932,13 @@
                                                                 <rect key="frame" x="0.0" y="58" width="382" height="48"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Request" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFN-Kp-Ka1">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="99" height="48"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="94" height="48"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="16"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="9:00 AM" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MlS-l5-uXt" customClass="AnimatableTextField" customModule="IBAnimatable">
-                                                                        <rect key="frame" x="124" y="0.0" width="258" height="48"/>
+                                                                        <rect key="frame" x="119" y="0.0" width="263" height="48"/>
                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
                                                                         <textInputTraits key="textInputTraits"/>
@@ -5983,7 +5983,7 @@ New york</string>
     </scenes>
     <designables>
         <designable name="0e6-6b-yYE">
-            <size key="intrinsicContentSize" width="107" height="20.5"/>
+            <size key="intrinsicContentSize" width="94.5" height="21"/>
         </designable>
         <designable name="1Pv-o5-lq9">
             <size key="intrinsicContentSize" width="70.5" height="33.5"/>
@@ -6016,7 +6016,7 @@ New york</string>
             <size key="intrinsicContentSize" width="108.5" height="23.5"/>
         </designable>
         <designable name="9CO-mq-yFO">
-            <size key="intrinsicContentSize" width="143.5" height="17.5"/>
+            <size key="intrinsicContentSize" width="138.5" height="18.5"/>
         </designable>
         <designable name="9Jr-9x-l9g">
             <size key="intrinsicContentSize" width="17.5" height="22"/>
@@ -6046,7 +6046,7 @@ New york</string>
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
         <designable name="E9u-mZ-JgR">
-            <size key="intrinsicContentSize" width="107" height="20.5"/>
+            <size key="intrinsicContentSize" width="94.5" height="21"/>
         </designable>
         <designable name="EDG-EC-TCS">
             <size key="intrinsicContentSize" width="40" height="14"/>
@@ -6076,7 +6076,7 @@ New york</string>
             <size key="intrinsicContentSize" width="62" height="33.5"/>
         </designable>
         <designable name="MlS-l5-uXt">
-            <size key="intrinsicContentSize" width="70" height="20.5"/>
+            <size key="intrinsicContentSize" width="71.5" height="21"/>
         </designable>
         <designable name="Pwc-8t-jBe">
             <size key="intrinsicContentSize" width="77.5" height="77.5"/>
@@ -6088,7 +6088,7 @@ New york</string>
             <size key="intrinsicContentSize" width="38" height="32"/>
         </designable>
         <designable name="TYU-Jl-kuF">
-            <size key="intrinsicContentSize" width="107" height="20.5"/>
+            <size key="intrinsicContentSize" width="94.5" height="21"/>
         </designable>
         <designable name="Ud1-Kd-0YP">
             <size key="intrinsicContentSize" width="48" height="48"/>
@@ -6130,7 +6130,7 @@ New york</string>
             <size key="intrinsicContentSize" width="66" height="18"/>
         </designable>
         <designable name="gaI-fa-73u">
-            <size key="intrinsicContentSize" width="50" height="31"/>
+            <size key="intrinsicContentSize" width="47" height="32"/>
         </designable>
         <designable name="h1h-Cp-rDL">
             <size key="intrinsicContentSize" width="38" height="32"/>
@@ -6148,7 +6148,7 @@ New york</string>
             <size key="intrinsicContentSize" width="70.5" height="33.5"/>
         </designable>
         <designable name="kTh-Ks-vnu">
-            <size key="intrinsicContentSize" width="101" height="24"/>
+            <size key="intrinsicContentSize" width="97" height="24"/>
         </designable>
         <designable name="lgG-j1-jFR">
             <size key="intrinsicContentSize" width="30" height="26"/>
@@ -6181,7 +6181,7 @@ New york</string>
             <size key="intrinsicContentSize" width="71.5" height="21"/>
         </designable>
         <designable name="wLI-Ph-1SI">
-            <size key="intrinsicContentSize" width="38" height="31"/>
+            <size key="intrinsicContentSize" width="38" height="32"/>
         </designable>
         <designable name="wkk-R3-J4A">
             <size key="intrinsicContentSize" width="86" height="16"/>
@@ -6241,7 +6241,7 @@ New york</string>
         <image name="search_ex" width="17" height="17"/>
         <image name="send_feed" width="50.5" height="50"/>
         <image name="star_pink" width="9" height="9"/>
-        <image name="tick" width="18" height="13.5"/>
+        <image name="tick" width="18.5" height="13.5"/>
         <image name="twitter_profile" width="24" height="24"/>
         <image name="video_img" width="296" height="173"/>
         <image name="website_circle" width="18" height="18"/>

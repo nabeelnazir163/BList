@@ -15,6 +15,7 @@ class CreatorExperienceTabVC: BaseClassVC {
     @IBOutlet weak var tbl_creator              : myTableView!
     @IBOutlet weak var nslayout_collectionHeight: NSLayoutConstraint!
     @IBOutlet weak var nslayout_TableHeight     : NSLayoutConstraint!
+    @IBOutlet weak var wishListView: AnimatableView!
     @IBOutlet weak var searchField              : AnimatedBindingText!{
         didSet{
             searchField.bind { [weak self] in
@@ -35,6 +36,7 @@ class CreatorExperienceTabVC: BaseClassVC {
         searchField.addTarget(self, action: #selector(txtChangeAction(_:)), for: .editingChanged)
         locationBtn.addTarget(self, action: #selector(locationTapAction(_:)), for: .touchUpInside)
         creatorTypeLbl.text = AppSettings.UserInfo?.creatorType == "2" ? "Venue Creator" : "Individual Creator"
+        wishListView.borderType = .dash(dashLength: 5, spaceLength: 5)
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
