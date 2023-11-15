@@ -167,7 +167,7 @@ extension AllCategoryVC:UITableViewDataSource,UITableViewDelegate{
             return 210
         }
         if indexPath.section == 2{
-            return 130
+            return 150
         }
         return UITableView.automaticDimension
     }

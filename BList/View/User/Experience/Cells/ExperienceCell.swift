@@ -49,13 +49,14 @@ extension ExperienceCell:UICollectionViewDelegate,UICollectionViewDataSource,UIC
         userVM?.homeData[itemIndex - 1].items?[sender.tag].favouriteStatus = exp?.favouriteStatus ?? 0 == 1 ? 0 : 1
         exp?.favouriteStatus ?? 0 == 1 ? parent?.userVM.makeUnFavourite(expId: exp?.expID ?? "") : parent?.userVM.makeFavourite(expId: exp?.expID ?? "")
         self.parent?.tbl_Experience.reloadData()
+        self.experienceBasedVC?.tbl_Experience.reloadData()
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if itemIndex == 1{
             return CGSize(width: 299.0, height:210)
         }
         else if itemIndex == 2{
-            return CGSize(width: 170, height: 130)
+            return CGSize(width: 190, height: 150)
         }
         else{
             return CGSize(width: (collectionView.frame.width-50)/2, height: 170)

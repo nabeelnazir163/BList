@@ -114,10 +114,10 @@ extension ExperiencesBasedOnCategoryVC:UITableViewDataSource,UITableViewDelegate
             return 117
         }
         if indexPath.section == 1{
-            return 275
+            return 210
         }
         if indexPath.section == 2{
-            return 275
+            return 150
         }
         return UITableView.automaticDimension
     }
@@ -153,10 +153,10 @@ extension ExperiencesBasedOnCategoryVC:UITableViewDataSource,UITableViewDelegate
             cell.layoutIfNeeded()
             cell.collection_Experience.reloadData()
             if indexPath.section == 3 && items.count < 3{
-                cell.layout_collection.constant = 275
+                cell.layout_collection.constant = 175
             }
             else{
-                cell.layout_collection.constant = (2.0 * 275)
+                cell.layout_collection.constant = (2.0 * 175)
             }
             cell.setData()
             return cell
