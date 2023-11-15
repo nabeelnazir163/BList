@@ -418,7 +418,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RgU-hK-lua">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2904.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2766.5"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" contentInsetAdjustmentBehavior="scrollableAxes" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xt0-0R-tOz">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="948"/>
@@ -539,7 +539,7 @@
                                                 <rect key="frame" x="149" y="897" width="116.5" height="26"/>
                                             </pageControl>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7q7-bg-gDT" customClass="AnimatableView" customModule="IBAnimatable">
-                                                <rect key="frame" x="0.0" y="930" width="414" height="1974.5"/>
+                                                <rect key="frame" x="0.0" y="930" width="414" height="1836.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kD2-Nw-ksq">
                                                         <rect key="frame" x="21" y="12" width="372" height="0.0"/>
@@ -629,19 +629,19 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="SD1-9J-clq">
-                                                        <rect key="frame" x="21" y="204" width="372" height="1040"/>
+                                                        <rect key="frame" x="21" y="204" width="372" height="1037"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IQX-cF-OsX">
-                                                                <rect key="frame" x="0.0" y="0.0" width="372" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="372" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summary" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7i7-Jp-3I9">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="21"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="20"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="17"/>
                                                                         <color key="textColor" name="#190000"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhk-ji-SVO">
-                                                                        <rect key="frame" x="0.0" y="31" width="372" height="0.0"/>
+                                                                        <rect key="frame" x="0.0" y="30" width="372" height="0.0"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="13"/>
                                                                         <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -649,16 +649,16 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="m1H-fp-Ijn">
-                                                                <rect key="frame" x="0.0" y="56" width="372" height="31"/>
+                                                                <rect key="frame" x="0.0" y="55" width="372" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfq-Ql-Nid">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="21"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="20"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="17"/>
                                                                         <color key="textColor" name="#190000"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbd-ye-c4b">
-                                                                        <rect key="frame" x="0.0" y="31" width="372" height="0.0"/>
+                                                                        <rect key="frame" x="0.0" y="30" width="372" height="0.0"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="13"/>
                                                                         <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -666,16 +666,16 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="imC-8h-YdL">
-                                                                <rect key="frame" x="0.0" y="112" width="372" height="31"/>
+                                                                <rect key="frame" x="0.0" y="110" width="372" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atmosphere and Location" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVY-3B-3tz">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="21"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="372" height="20"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="17"/>
                                                                         <color key="textColor" name="#190000"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZy-kw-m5O">
-                                                                        <rect key="frame" x="0.0" y="31" width="372" height="0.0"/>
+                                                                        <rect key="frame" x="0.0" y="30" width="372" height="0.0"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="13"/>
                                                                         <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -683,13 +683,13 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WDd-zJ-aRI">
-                                                                <rect key="frame" x="0.0" y="168" width="372" height="872"/>
+                                                                <rect key="frame" x="0.0" y="165" width="372" height="872"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpK-u3-P0s" customClass="AnimatableView" customModule="IBAnimatable">
                                                                         <rect key="frame" x="0.0" y="0.0" width="372" height="50"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Important Details" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdb-nU-Jgi">
-                                                                                <rect key="frame" x="15" y="15.5" width="121.5" height="19.5"/>
+                                                                                <rect key="frame" x="15" y="15.5" width="122.5" height="19"/>
                                                                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
                                                                                 <color key="textColor" name="#190000"/>
                                                                                 <nil key="highlightedColor"/>
@@ -759,16 +759,16 @@
                                                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                                     <subviews>
                                                                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="0SL-UH-1E8">
-                                                                                                            <rect key="frame" x="0.0" y="0.0" width="205" height="43"/>
+                                                                                                            <rect key="frame" x="0.0" y="0.0" width="205" height="41.5"/>
                                                                                                             <subviews>
                                                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Level" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ea-CE-LSl">
-                                                                                                                    <rect key="frame" x="0.0" y="0.0" width="205" height="19.5"/>
+                                                                                                                    <rect key="frame" x="0.0" y="0.0" width="205" height="19"/>
                                                                                                                     <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
                                                                                                                     <color key="textColor" name="#190000"/>
                                                                                                                     <nil key="highlightedColor"/>
                                                                                                                 </label>
                                                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Moderate" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GsS-3H-zOo">
-                                                                                                                    <rect key="frame" x="0.0" y="25.5" width="205" height="17.5"/>
+                                                                                                                    <rect key="frame" x="0.0" y="25" width="205" height="16.5"/>
                                                                                                                     <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                                                                                     <color key="textColor" name="#989595"/>
                                                                                                                     <nil key="highlightedColor"/>
@@ -795,16 +795,16 @@
                                                                                         </connections>
                                                                                     </collectionView>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="EQV-VR-qKM">
-                                                                                        <rect key="frame" x="0.0" y="415" width="332" height="240.5"/>
+                                                                                        <rect key="frame" x="0.0" y="415" width="332" height="242"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqd-63-Ycu">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="230.5"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="232"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="16"/>
                                                                                                 <color key="textColor" name="#190000"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xs5-cn-IHq">
-                                                                                                <rect key="frame" x="0.0" y="240.5" width="332" height="0.0"/>
+                                                                                                <rect key="frame" x="0.0" y="242" width="332" height="0.0"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                                                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -812,16 +812,16 @@
                                                                                         </subviews>
                                                                                     </stackView>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XeT-Av-k1t">
-                                                                                        <rect key="frame" x="0.0" y="670.5" width="332" height="29.5"/>
+                                                                                        <rect key="frame" x="0.0" y="672" width="332" height="29"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Willing to Travel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGJ-b5-M9Z">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="19.5"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="19"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="16"/>
                                                                                                 <color key="textColor" name="#190000"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5M-PF-fiq">
-                                                                                                <rect key="frame" x="0.0" y="29.5" width="332" height="0.0"/>
+                                                                                                <rect key="frame" x="0.0" y="29" width="332" height="0.0"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                                                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -829,16 +829,16 @@
                                                                                         </subviews>
                                                                                     </stackView>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1i7-fo-tHQ">
-                                                                                        <rect key="frame" x="0.0" y="715" width="332" height="29.5"/>
+                                                                                        <rect key="frame" x="0.0" y="716" width="332" height="29"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clothing Recommendations" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="980-Pb-ccm">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="19.5"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="19"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="16"/>
                                                                                                 <color key="textColor" name="#190000"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnk-f2-y40">
-                                                                                                <rect key="frame" x="0.0" y="29.5" width="332" height="0.0"/>
+                                                                                                <rect key="frame" x="0.0" y="29" width="332" height="0.0"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                                                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -846,16 +846,16 @@
                                                                                         </subviews>
                                                                                     </stackView>
                                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="41e-Dt-y9c">
-                                                                                        <rect key="frame" x="0.0" y="759.5" width="332" height="29.5"/>
+                                                                                        <rect key="frame" x="0.0" y="760" width="332" height="29"/>
                                                                                         <subviews>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cancellation Policy" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b2-ag-8Vh">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="19.5"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="332" height="19"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="16"/>
                                                                                                 <color key="textColor" name="#190000"/>
                                                                                                 <nil key="highlightedColor"/>
                                                                                             </label>
                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RId-cB-FZk">
-                                                                                                <rect key="frame" x="0.0" y="29.5" width="332" height="0.0"/>
+                                                                                                <rect key="frame" x="0.0" y="29" width="332" height="0.0"/>
                                                                                                 <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                                                                 <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 <nil key="highlightedColor"/>
@@ -887,13 +887,13 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="t6S-S5-pMy">
-                                                        <rect key="frame" x="0.0" y="1254" width="414" height="700.5"/>
+                                                        <rect key="frame" x="0.0" y="1251" width="414" height="565.5"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJp-Or-In2">
                                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="104.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blist Online Platforms" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1c5-th-ivK">
-                                                                        <rect key="frame" x="131.5" y="10" width="151" height="34.5"/>
+                                                                        <rect key="frame" x="130" y="10" width="154.5" height="34.5"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
                                                                         <color key="textColor" name="#190000"/>
                                                                         <nil key="highlightedColor"/>
@@ -1051,13 +1051,13 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experience hosted by " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BR5-P1-hxi">
-                                                                        <rect key="frame" x="95" y="12.5" width="309" height="19.5"/>
+                                                                        <rect key="frame" x="95" y="12.5" width="309" height="19"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="16"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="xbi-AY-Izx">
-                                                                        <rect key="frame" x="95" y="39" width="141" height="25"/>
+                                                                        <rect key="frame" x="95" y="38.5" width="141" height="25"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuD-fJ-LgC">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
@@ -1093,18 +1093,18 @@
                                                                         </constraints>
                                                                     </stackView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFb-o6-Ljv">
-                                                                        <rect key="frame" x="241" y="51.5" width="0.0" height="0.0"/>
+                                                                        <rect key="frame" x="241" y="51" width="0.0" height="0.0"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="10"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGT-29-GLX">
-                                                                        <rect key="frame" x="364.5" y="37" width="29.5" height="29.5"/>
+                                                                        <rect key="frame" x="364.5" y="36.5" width="29.5" height="29.5"/>
                                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                         <state key="normal" image="message_icon"/>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Hours ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdf-2F-FuU">
-                                                                        <rect key="frame" x="95" y="71" width="50.5" height="12.5"/>
+                                                                        <rect key="frame" x="95" y="70.5" width="55" height="12"/>
                                                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="10"/>
                                                                         <color key="textColor" red="0.79607843140000001" green="0.79607843140000001" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -1132,7 +1132,7 @@
                                                                 <rect key="frame" x="0.0" y="304.5" width="414" height="70"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earn Badges" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXE-Lc-zOH">
-                                                                        <rect key="frame" x="16" y="25" width="92.5" height="20.5"/>
+                                                                        <rect key="frame" x="16" y="25.5" width="92.5" height="19"/>
                                                                         <fontDescription key="fontDescription" name="CerebriSans-SemiBold" family="Cerebri Sans" pointSize="16"/>
                                                                         <color key="textColor" red="0.074509803920000006" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -1217,13 +1217,13 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="19"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuC-5v-Czd">
-                                                                                <rect key="frame" x="18" y="19" width="73" height="0.0"/>
+                                                                                <rect key="frame" x="18" y="19" width="68.5" height="0.0"/>
                                                                                 <fontDescription key="fontDescription" name="CerebriSans-SemiBold" family="Cerebri Sans" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vk-kI-3Sx">
-                                                                                <rect key="frame" x="101" y="9" width="293" height="20"/>
+                                                                                <rect key="frame" x="96.5" y="10" width="297.5" height="18"/>
                                                                                 <fontDescription key="fontDescription" name="CerebriSans-Book" family="Cerebri Sans" pointSize="15"/>
                                                                                 <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -1279,13 +1279,13 @@
                                                                                                     <rect key="frame" x="59.5" y="10" width="169.5" height="40"/>
                                                                                                     <subviews>
                                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Gemma Kane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpb-MZ-qaL">
-                                                                                                            <rect key="frame" x="0.0" y="0.0" width="169.5" height="24.5"/>
+                                                                                                            <rect key="frame" x="0.0" y="0.0" width="169.5" height="26"/>
                                                                                                             <fontDescription key="fontDescription" name="CerebriSans-Book" family="Cerebri Sans" pointSize="16"/>
                                                                                                             <color key="textColor" red="0.074509803920000006" green="0.066666666669999999" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                             <nil key="highlightedColor"/>
                                                                                                         </label>
                                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="November 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4z3-Go-Jj0">
-                                                                                                            <rect key="frame" x="0.0" y="24.5" width="169.5" height="15.5"/>
+                                                                                                            <rect key="frame" x="0.0" y="26" width="169.5" height="14"/>
                                                                                                             <fontDescription key="fontDescription" name="CerebriSans-Book" family="Cerebri Sans" pointSize="12"/>
                                                                                                             <color key="textColor" red="0.59607843140000005" green="0.58431372550000005" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                             <nil key="highlightedColor"/>
@@ -1383,19 +1383,19 @@
                                                                 </constraints>
                                                             </view>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Mvn-GC-x3K">
-                                                                <rect key="frame" x="0.0" y="375.5" width="414" height="325"/>
+                                                                <rect key="frame" x="0.0" y="375.5" width="414" height="190"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZAe-bW-IQN">
                                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar experiences in that area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUs-T1-TGq">
-                                                                                <rect key="frame" x="18" y="13.5" width="236.5" height="21.5"/>
+                                                                                <rect key="frame" x="18" y="13.5" width="224" height="21.5"/>
                                                                                 <fontDescription key="fontDescription" name="CerebriSans-SemiBold" family="Cerebri Sans" pointSize="16"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqi-jG-tZI">
-                                                                                <rect key="frame" x="350" y="8.5" width="44" height="32"/>
+                                                                                <rect key="frame" x="351" y="9.5" width="43" height="30"/>
                                                                                 <fontDescription key="fontDescription" name="CerebriSans-Book" family="Cerebri Sans" pointSize="15"/>
                                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                                                 <state key="normal" title="see all">
@@ -1417,10 +1417,10 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="EB5-nT-qhk">
-                                                                        <rect key="frame" x="0.0" y="50" width="414" height="275"/>
+                                                                        <rect key="frame" x="0.0" y="50" width="414" height="140"/>
                                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
-                                                                            <constraint firstAttribute="height" constant="275" id="uru-Ls-8LG"/>
+                                                                            <constraint firstAttribute="height" constant="140" id="uru-Ls-8LG"/>
                                                                         </constraints>
                                                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HVV-Zk-Jf0">
                                                                             <size key="itemSize" width="299" height="210"/>
@@ -1429,183 +1429,151 @@
                                                                             <inset key="sectionInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                                                                         </collectionViewFlowLayout>
                                                                         <cells>
-                                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExperienceDetailsCell" id="yHQ-Um-9Wy" customClass="ExperienceDetailsCell" customModule="BList" customModuleProvider="target">
-                                                                                <rect key="frame" x="15" y="32.5" width="299" height="210"/>
+                                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExperienceDetailsCell" id="LRV-Uf-L56" customClass="ExperienceDetailsCell" customModule="BList" customModuleProvider="target">
+                                                                                <rect key="frame" x="15" y="-35" width="299" height="210"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8jc-AN-nqH" customClass="AnimatableView" customModule="IBAnimatable">
+                                                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="e18-KA-8Q7">
                                                                                     <rect key="frame" x="0.0" y="0.0" width="299" height="210"/>
                                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                     <subviews>
-                                                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKP-Pu-0aV" customClass="AnimatableView" customModule="IBAnimatable">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="299" height="205"/>
+                                                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSX-5j-Gbn" customClass="AnimatableView" customModule="IBAnimatable">
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="291" height="210"/>
                                                                                             <subviews>
-                                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="249" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="isJ-bf-gJe" customClass="AnimatableImageView" customModule="IBAnimatable">
-                                                                                                    <rect key="frame" x="5" y="5" width="289" height="170"/>
-                                                                                                    <constraints>
-                                                                                                        <constraint firstAttribute="height" constant="200" id="XDd-Ic-nfd"/>
-                                                                                                    </constraints>
+                                                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="249" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="GBw-FC-vRj" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                                                                                    <rect key="frame" x="0.0" y="0.0" width="291" height="210"/>
                                                                                                     <userDefinedRuntimeAttributes>
                                                                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                                            <real key="value" value="15"/>
+                                                                                                            <integer key="value" value="10"/>
                                                                                                         </userDefinedRuntimeAttribute>
                                                                                                     </userDefinedRuntimeAttributes>
                                                                                                 </imageView>
-                                                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BsL-tC-30G" customClass="AnimatableView" customModule="IBAnimatable">
-                                                                                                    <rect key="frame" x="5" y="180" width="289" height="25"/>
+                                                                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6h-Qg-Lh7" customClass="AnimatableView" customModule="IBAnimatable">
+                                                                                                    <rect key="frame" x="0.0" y="0.0" width="291" height="210"/>
                                                                                                     <subviews>
-                                                                                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Veu-f2-mfO">
-                                                                                                            <rect key="frame" x="0.0" y="0.0" width="289" height="25"/>
+                                                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dx1-jr-34f">
+                                                                                                            <rect key="frame" x="5" y="135.5" width="281" height="69.5"/>
                                                                                                             <subviews>
-                                                                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JRQ-iy-4qa">
-                                                                                                                    <rect key="frame" x="0.0" y="0.0" width="244" height="25"/>
+                                                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tast, Texture &amp; Flavors of New york" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZv-Sd-o0Y">
+                                                                                                                    <rect key="frame" x="0.0" y="0.0" width="281" height="37.5"/>
+                                                                                                                    <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
+                                                                                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                    <nil key="highlightedColor"/>
+                                                                                                                </label>
+                                                                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uol-2F-h1K">
+                                                                                                                    <rect key="frame" x="0.0" y="47.5" width="281" height="22"/>
                                                                                                                     <subviews>
-                                                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="249" text="Tast, Texture &amp; Flavors of New york" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlZ-IU-Jhj">
-                                                                                                                            <rect key="frame" x="0.0" y="0.0" width="146" height="5"/>
-                                                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                                            <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
-                                                                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84D-Ax-ZvZ">
+                                                                                                                            <rect key="frame" x="0.0" y="0.0" width="221" height="22"/>
+                                                                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="12"/>
+                                                                                                                            <color key="textColor" name="AppOrange"/>
                                                                                                                             <nil key="highlightedColor"/>
                                                                                                                         </label>
-                                                                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8s-5C-pn0" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                                                            <rect key="frame" x="0.0" y="10" width="66" height="5"/>
-                                                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rj2-r2-DcU">
+                                                                                                                            <rect key="frame" x="231" y="0.0" width="50" height="22"/>
                                                                                                                             <constraints>
-                                                                                                                                <constraint firstAttribute="height" constant="18" id="GrD-gC-TS8"/>
+                                                                                                                                <constraint firstAttribute="width" constant="50" id="BQR-Sl-SxH"/>
                                                                                                                             </constraints>
-                                                                                                                            <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
-                                                                                                                            <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="10" maxY="0.0"/>
-                                                                                                                            <inset key="imageEdgeInsets" minX="-7" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                                                            <state key="normal" title="Dating" image="dating_symbol">
-                                                                                                                                <color key="titleColor" name="#989595"/>
-                                                                                                                            </state>
-                                                                                                                            <userDefinedRuntimeAttributes>
-                                                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                                                                    <real key="value" value="0.0"/>
-                                                                                                                                </userDefinedRuntimeAttribute>
-                                                                                                                                <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                                                                                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                                                </userDefinedRuntimeAttribute>
-                                                                                                                            </userDefinedRuntimeAttributes>
-                                                                                                                        </button>
-                                                                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="$ 500/ Person" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yc-L5-lgv">
-                                                                                                                            <rect key="frame" x="0.0" y="20" width="94.5" height="5"/>
-                                                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="15"/>
-                                                                                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                                            <nil key="highlightedColor"/>
-                                                                                                                        </label>
-                                                                                                                    </subviews>
-                                                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                                </stackView>
-                                                                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nou-nQ-RT2">
-                                                                                                                    <rect key="frame" x="244" y="0.0" width="45" height="25"/>
-                                                                                                                    <subviews>
-                                                                                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ch5-8u-ANq" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                                                            <rect key="frame" x="0.0" y="0.0" width="45" height="25"/>
-                                                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                                            <constraints>
-                                                                                                                                <constraint firstAttribute="height" constant="25" id="9cC-0d-KMO"/>
-                                                                                                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="45" id="O27-ck-4FJ"/>
-                                                                                                                            </constraints>
-                                                                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="11"/>
-                                                                                                                            <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
-                                                                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                                                            <state key="normal" title="online">
-                                                                                                                                <color key="titleColor" name="#252634_"/>
-                                                                                                                            </state>
-                                                                                                                            <userDefinedRuntimeAttributes>
-                                                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                                                                    <real key="value" value="10"/>
-                                                                                                                                </userDefinedRuntimeAttribute>
-                                                                                                                                <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                                                                                                                    <color key="value" name="#EFF0F1"/>
-                                                                                                                                </userDefinedRuntimeAttribute>
-                                                                                                                            </userDefinedRuntimeAttributes>
+                                                                                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                                                                                                            <state key="normal" image="heart_gray"/>
                                                                                                                         </button>
                                                                                                                     </subviews>
-                                                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                                 </stackView>
                                                                                                             </subviews>
-                                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                                         </stackView>
                                                                                                     </subviews>
-                                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                                    <color key="backgroundColor" name="BlurColor"/>
                                                                                                     <constraints>
-                                                                                                        <constraint firstAttribute="trailing" secondItem="Veu-f2-mfO" secondAttribute="trailing" id="4uT-mf-lza"/>
-                                                                                                        <constraint firstAttribute="bottom" secondItem="Veu-f2-mfO" secondAttribute="bottom" id="Lgd-JG-XiH"/>
-                                                                                                        <constraint firstItem="Veu-f2-mfO" firstAttribute="leading" secondItem="BsL-tC-30G" secondAttribute="leading" id="WUa-oQ-k5f"/>
-                                                                                                        <constraint firstItem="Veu-f2-mfO" firstAttribute="top" secondItem="BsL-tC-30G" secondAttribute="top" id="ZX0-pd-C1O"/>
+                                                                                                        <constraint firstItem="Dx1-jr-34f" firstAttribute="leading" secondItem="Y6h-Qg-Lh7" secondAttribute="leading" constant="5" id="NRb-Vb-hxg"/>
+                                                                                                        <constraint firstAttribute="trailing" secondItem="Dx1-jr-34f" secondAttribute="trailing" constant="5" id="WOd-PX-g7d"/>
+                                                                                                        <constraint firstAttribute="bottom" secondItem="Dx1-jr-34f" secondAttribute="bottom" constant="5" id="ddT-u8-L0T"/>
                                                                                                     </constraints>
                                                                                                     <userDefinedRuntimeAttributes>
                                                                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                                            <real key="value" value="5"/>
+                                                                                                            <integer key="value" value="10"/>
                                                                                                         </userDefinedRuntimeAttribute>
                                                                                                     </userDefinedRuntimeAttributes>
                                                                                                 </view>
-                                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28S-jJ-Ite">
-                                                                                                    <rect key="frame" x="254" y="15" width="30" height="30"/>
+                                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48A-jm-7yd" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                                                                    <rect key="frame" x="231" y="10" width="50" height="18"/>
+                                                                                                    <color key="backgroundColor" red="1" green="0.91372549020000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                     <constraints>
-                                                                                                        <constraint firstAttribute="width" constant="30" id="JN7-34-sZX"/>
-                                                                                                        <constraint firstAttribute="height" constant="30" id="cVK-1l-abd"/>
+                                                                                                        <constraint firstAttribute="height" constant="18" id="ybh-eZ-OVx"/>
                                                                                                     </constraints>
-                                                                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
-                                                                                                    <state key="normal" image="heart_gray"/>
+                                                                                                    <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="8"/>
+                                                                                                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="8" maxY="0.0"/>
+                                                                                                    <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                                                    <state key="normal" title="Dating" image="dating_symbol">
+                                                                                                        <color key="titleColor" red="1" green="0.31372549020000001" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                                    </state>
+                                                                                                    <userDefinedRuntimeAttributes>
+                                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                                            <real key="value" value="9"/>
+                                                                                                        </userDefinedRuntimeAttribute>
+                                                                                                    </userDefinedRuntimeAttributes>
+                                                                                                </button>
+                                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmy-w6-9N6" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                                                                    <rect key="frame" x="10" y="10" width="32" height="16"/>
+                                                                                                    <color key="backgroundColor" name="AppOrange"/>
+                                                                                                    <constraints>
+                                                                                                        <constraint firstAttribute="height" constant="16" id="Lhy-MN-yef"/>
+                                                                                                    </constraints>
+                                                                                                    <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="8"/>
+                                                                                                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                                                    <state key="normal" title="online"/>
+                                                                                                    <userDefinedRuntimeAttributes>
+                                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                                            <real key="value" value="8"/>
+                                                                                                        </userDefinedRuntimeAttribute>
+                                                                                                    </userDefinedRuntimeAttributes>
                                                                                                 </button>
                                                                                             </subviews>
-                                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                                             <constraints>
-                                                                                                <constraint firstAttribute="trailing" secondItem="BsL-tC-30G" secondAttribute="trailing" constant="5" id="10s-Bu-4h8"/>
-                                                                                                <constraint firstAttribute="bottom" secondItem="BsL-tC-30G" secondAttribute="bottom" id="3b9-3H-f5f"/>
-                                                                                                <constraint firstItem="BsL-tC-30G" firstAttribute="leading" secondItem="lKP-Pu-0aV" secondAttribute="leading" constant="5" id="7Ev-lj-Krr"/>
-                                                                                                <constraint firstItem="28S-jJ-Ite" firstAttribute="top" secondItem="isJ-bf-gJe" secondAttribute="top" constant="10" id="8F8-1p-gcJ"/>
-                                                                                                <constraint firstItem="BsL-tC-30G" firstAttribute="top" secondItem="isJ-bf-gJe" secondAttribute="bottom" constant="5" id="Xrx-rV-1Kt"/>
-                                                                                                <constraint firstItem="isJ-bf-gJe" firstAttribute="trailing" secondItem="28S-jJ-Ite" secondAttribute="trailing" constant="10" id="gFS-vQ-QGf"/>
-                                                                                                <constraint firstItem="isJ-bf-gJe" firstAttribute="top" secondItem="lKP-Pu-0aV" secondAttribute="top" constant="5" id="h6o-fd-CWp"/>
-                                                                                                <constraint firstItem="isJ-bf-gJe" firstAttribute="leading" secondItem="lKP-Pu-0aV" secondAttribute="leading" constant="5" id="oMz-ek-bbQ"/>
-                                                                                                <constraint firstAttribute="trailing" secondItem="isJ-bf-gJe" secondAttribute="trailing" constant="5" id="zJl-Rd-Wwe"/>
+                                                                                                <constraint firstItem="GBw-FC-vRj" firstAttribute="bottom" secondItem="Y6h-Qg-Lh7" secondAttribute="bottom" id="3Kk-bR-W2j"/>
+                                                                                                <constraint firstItem="GBw-FC-vRj" firstAttribute="trailing" secondItem="Y6h-Qg-Lh7" secondAttribute="trailing" id="3WX-iz-Ezj"/>
+                                                                                                <constraint firstItem="GBw-FC-vRj" firstAttribute="leading" secondItem="TSX-5j-Gbn" secondAttribute="leading" id="E7S-CY-o78"/>
+                                                                                                <constraint firstItem="GBw-FC-vRj" firstAttribute="top" secondItem="TSX-5j-Gbn" secondAttribute="top" id="EzM-uC-BrG"/>
+                                                                                                <constraint firstItem="Dmy-w6-9N6" firstAttribute="top" secondItem="TSX-5j-Gbn" secondAttribute="top" constant="10" id="FQc-PX-pxv"/>
+                                                                                                <constraint firstItem="Dmy-w6-9N6" firstAttribute="leading" secondItem="TSX-5j-Gbn" secondAttribute="leading" constant="10" id="OSc-1N-HsR"/>
+                                                                                                <constraint firstItem="48A-jm-7yd" firstAttribute="top" secondItem="TSX-5j-Gbn" secondAttribute="top" constant="10" id="Rng-M0-YDs"/>
+                                                                                                <constraint firstAttribute="trailing" secondItem="GBw-FC-vRj" secondAttribute="trailing" id="T3R-ex-miu"/>
+                                                                                                <constraint firstItem="Y6h-Qg-Lh7" firstAttribute="leading" secondItem="GBw-FC-vRj" secondAttribute="leading" id="WU3-WE-ahp"/>
+                                                                                                <constraint firstAttribute="bottom" secondItem="GBw-FC-vRj" secondAttribute="bottom" id="a32-i8-UUd"/>
+                                                                                                <constraint firstAttribute="trailing" secondItem="48A-jm-7yd" secondAttribute="trailing" constant="10" id="flA-Yh-ikb"/>
+                                                                                                <constraint firstItem="Y6h-Qg-Lh7" firstAttribute="top" secondItem="TSX-5j-Gbn" secondAttribute="top" id="sWV-bf-XCO"/>
                                                                                             </constraints>
                                                                                             <userDefinedRuntimeAttributes>
                                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                                    <real key="value" value="15"/>
+                                                                                                    <real key="value" value="10"/>
+                                                                                                </userDefinedRuntimeAttribute>
+                                                                                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                                                    <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                                 </userDefinedRuntimeAttribute>
                                                                                                 <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                                                                                    <real key="value" value="0.0"/>
+                                                                                                    <real key="value" value="0.5"/>
                                                                                                 </userDefinedRuntimeAttribute>
                                                                                                 <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
                                                                                                     <point key="value" x="0.0" y="0.0"/>
                                                                                                 </userDefinedRuntimeAttribute>
-                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                                                                    <real key="value" value="0.0"/>
-                                                                                                </userDefinedRuntimeAttribute>
-                                                                                                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                                                                    <real key="value" value="0.0"/>
-                                                                                                </userDefinedRuntimeAttribute>
                                                                                             </userDefinedRuntimeAttributes>
                                                                                         </view>
                                                                                     </subviews>
-                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                     <constraints>
-                                                                                        <constraint firstAttribute="bottom" secondItem="lKP-Pu-0aV" secondAttribute="bottom" constant="5" id="Gfh-BG-Wrs"/>
-                                                                                        <constraint firstItem="lKP-Pu-0aV" firstAttribute="leading" secondItem="8jc-AN-nqH" secondAttribute="leading" id="O1m-Vl-rCs"/>
-                                                                                        <constraint firstItem="lKP-Pu-0aV" firstAttribute="top" secondItem="8jc-AN-nqH" secondAttribute="top" id="fG0-lS-Egs"/>
-                                                                                        <constraint firstAttribute="trailing" secondItem="lKP-Pu-0aV" secondAttribute="trailing" id="u05-wv-0zo"/>
+                                                                                        <constraint firstAttribute="bottom" secondItem="TSX-5j-Gbn" secondAttribute="bottom" id="9bU-oY-C8X"/>
+                                                                                        <constraint firstItem="TSX-5j-Gbn" firstAttribute="trailing" secondItem="e18-KA-8Q7" secondAttribute="trailingMargin" id="9z1-3j-JNE"/>
+                                                                                        <constraint firstItem="TSX-5j-Gbn" firstAttribute="leading" secondItem="e18-KA-8Q7" secondAttribute="leading" id="egB-3I-ibD"/>
+                                                                                        <constraint firstItem="TSX-5j-Gbn" firstAttribute="top" secondItem="e18-KA-8Q7" secondAttribute="top" id="maE-cc-IhZ"/>
                                                                                     </constraints>
-                                                                                    <userDefinedRuntimeAttributes>
-                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                            <real key="value" value="5"/>
-                                                                                        </userDefinedRuntimeAttribute>
-                                                                                    </userDefinedRuntimeAttributes>
                                                                                 </collectionViewCellContentView>
-                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <connections>
-                                                                                    <outlet property="amountLbl" destination="2yc-L5-lgv" id="0i5-KN-iiD"/>
-                                                                                    <outlet property="categoryBtn" destination="g8s-5C-pn0" id="7sH-tV-zdo"/>
-                                                                                    <outlet property="expNameLbl" destination="zlZ-IU-Jhj" id="m4L-N5-N7k"/>
-                                                                                    <outlet property="experienceImg" destination="isJ-bf-gJe" id="JZC-M8-8kI"/>
-                                                                                    <outlet property="likeBtn" destination="28S-jJ-Ite" id="Ea4-Sj-HAE"/>
-                                                                                    <outlet property="nameLbl" destination="zlZ-IU-Jhj" id="2CL-OR-yho"/>
-                                                                                    <outlet property="typeBtn" destination="Ch5-8u-ANq" id="L1A-SH-cdk"/>
+                                                                                    <outlet property="amountLbl" destination="84D-Ax-ZvZ" id="FX9-6B-MQg"/>
+                                                                                    <outlet property="categoryBtn" destination="48A-jm-7yd" id="ZsU-T4-iub"/>
+                                                                                    <outlet property="experienceImg" destination="GBw-FC-vRj" id="mBO-Vr-CUT"/>
+                                                                                    <outlet property="likeBtn" destination="Rj2-r2-DcU" id="nMd-DH-sbj"/>
+                                                                                    <outlet property="nameLbl" destination="NZv-Sd-o0Y" id="rVe-Rb-AzP"/>
+                                                                                    <outlet property="typeBtn" destination="Dmy-w6-9N6" id="Cn3-PA-YAe"/>
                                                                                 </connections>
                                                                             </collectionViewCell>
                                                                         </cells>
@@ -1688,13 +1656,13 @@
                                 <rect key="frame" x="0.0" y="1818" width="414" height="78"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojh-sm-Mlq">
-                                        <rect key="frame" x="18" y="30.5" width="32" height="17.5"/>
+                                        <rect key="frame" x="18" y="31" width="36" height="16.5"/>
                                         <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                         <color key="textColor" name="AppOrange"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIJ-hK-3k8">
-                                        <rect key="frame" x="52" y="39" width="0.0" height="0.0"/>
+                                        <rect key="frame" x="56" y="39" width="0.0" height="0.0"/>
                                         <attributedString key="attributedText"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -5472,13 +5440,13 @@ New york</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blist Featured" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gak-EP-V6O">
-                                <rect key="frame" x="154" y="60" width="106.5" height="22"/>
+                                <rect key="frame" x="151.5" y="60" width="111.5" height="21"/>
                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JpZ-mu-Y2c">
-                                <rect key="frame" x="12" y="53.5" width="35" height="35"/>
+                                <rect key="frame" x="12" y="53" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="uPg-hr-AA3"/>
                                 </constraints>
@@ -5490,7 +5458,7 @@ New york</string>
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eEd-nB-SOx">
-                                <rect key="frame" x="0.0" y="88.5" width="414" height="773.5"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="25" minimumInteritemSpacing="10" id="TDI-2s-nIy">
                                     <size key="itemSize" width="137" height="154"/>
@@ -5499,178 +5467,151 @@ New york</string>
                                     <inset key="sectionInset" minX="15" minY="15" maxX="15" maxY="15"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExperienceDetailsCell" id="p4t-Ti-jDU" customClass="ExperienceDetailsCell" customModule="BList" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ExperienceDetailsCell" id="egU-Jw-Ti8" customClass="ExperienceDetailsCell" customModule="BList" customModuleProvider="target">
                                         <rect key="frame" x="15" y="15" width="137" height="154"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Jf2-6h-6Ql" customClass="AnimatableView" customModule="IBAnimatable">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="RWt-Xk-Hq5">
                                             <rect key="frame" x="0.0" y="0.0" width="137" height="154"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8XY-80-H8V" userLabel="MainView" customClass="AnimatableView" customModule="IBAnimatable">
-                                                    <rect key="frame" x="0.0" y="0.0" width="137" height="149"/>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aF9-r5-2Rf" customClass="AnimatableView" customModule="IBAnimatable">
+                                                    <rect key="frame" x="0.0" y="0.0" width="129" height="154"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="249" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="677-FE-j6l" customClass="AnimatableImageView" customModule="IBAnimatable">
-                                                            <rect key="frame" x="5" y="5" width="127" height="109"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="200" id="YW9-GR-Yhr"/>
-                                                            </constraints>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" verticalHuggingPriority="249" image="no_image" translatesAutoresizingMaskIntoConstraints="NO" id="YNB-wf-yUM" customClass="AnimatableImageView" customModule="IBAnimatable">
+                                                            <rect key="frame" x="0.0" y="0.0" width="129" height="154"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="15"/>
+                                                                    <integer key="value" value="10"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
-                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZx-XZ-jEw" userLabel="SubView" customClass="AnimatableView" customModule="IBAnimatable">
-                                                            <rect key="frame" x="5" y="119" width="127" height="30"/>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMM-Gq-lAl" customClass="AnimatableView" customModule="IBAnimatable">
+                                                            <rect key="frame" x="0.0" y="0.0" width="129" height="154"/>
                                                             <subviews>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5ds-B3-EYx">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="127" height="30"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RrK-lo-Brm">
+                                                                    <rect key="frame" x="5" y="79.5" width="119" height="69.5"/>
                                                                     <subviews>
-                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0o6-Ks-Z7u">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="77" height="30"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tast, Texture &amp; Flavors of New york" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycu-u1-5qu">
+                                                                            <rect key="frame" x="0.0" y="0.0" width="119" height="37.5"/>
+                                                                            <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
+                                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YsR-Xj-IaL">
+                                                                            <rect key="frame" x="0.0" y="47.5" width="119" height="22"/>
                                                                             <subviews>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tast, Texture &amp; Flavors of New york" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmK-zL-CNe">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="77" height="6.5"/>
-                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                    <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
-                                                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xs-Ip-vNX">
+                                                                                    <rect key="frame" x="0.0" y="0.0" width="59" height="22"/>
+                                                                                    <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="12"/>
+                                                                                    <color key="textColor" name="AppOrange"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
-                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jka-yH-ZsM" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                    <rect key="frame" x="0.0" y="11.5" width="66" height="7"/>
-                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                    <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
-                                                                                    <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="10" maxY="0.0"/>
-                                                                                    <inset key="imageEdgeInsets" minX="-7" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                    <state key="normal" title="Dating" image="dating_symbol">
-                                                                                        <color key="titleColor" name="#989595"/>
-                                                                                    </state>
-                                                                                    <userDefinedRuntimeAttributes>
-                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                            <real key="value" value="0.0"/>
-                                                                                        </userDefinedRuntimeAttribute>
-                                                                                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                        </userDefinedRuntimeAttribute>
-                                                                                    </userDefinedRuntimeAttributes>
-                                                                                </button>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sQ-Zi-fpV">
-                                                                                    <rect key="frame" x="0.0" y="23.5" width="41.5" height="6.5"/>
-                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                    <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="15"/>
-                                                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                    <nil key="highlightedColor"/>
-                                                                                </label>
-                                                                            </subviews>
-                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                        </stackView>
-                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sv5-zv-zV0">
-                                                                            <rect key="frame" x="77" y="0.0" width="50" height="30"/>
-                                                                            <subviews>
-                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3t-dh-IJv" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
-                                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdz-P5-8cX">
+                                                                                    <rect key="frame" x="69" y="0.0" width="50" height="22"/>
                                                                                     <constraints>
-                                                                                        <constraint firstAttribute="height" constant="30" id="Mhm-kd-4AP"/>
-                                                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="j5N-tf-c3R"/>
+                                                                                        <constraint firstAttribute="width" constant="50" id="9ax-cr-KeJ"/>
                                                                                     </constraints>
-                                                                                    <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="11"/>
-                                                                                    <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
-                                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                                    <state key="normal" title="online">
-                                                                                        <color key="titleColor" name="#252634_"/>
-                                                                                    </state>
-                                                                                    <userDefinedRuntimeAttributes>
-                                                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                                            <real key="value" value="10"/>
-                                                                                        </userDefinedRuntimeAttribute>
-                                                                                        <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                                                                            <color key="value" name="#EFF0F1"/>
-                                                                                        </userDefinedRuntimeAttribute>
-                                                                                    </userDefinedRuntimeAttributes>
+                                                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                                                                                    <state key="normal" image="heart_gray"/>
                                                                                 </button>
                                                                             </subviews>
-                                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         </stackView>
                                                                     </subviews>
-                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </stackView>
                                                             </subviews>
+                                                            <color key="backgroundColor" name="BlurColor"/>
                                                             <constraints>
-                                                                <constraint firstItem="5ds-B3-EYx" firstAttribute="leading" secondItem="aZx-XZ-jEw" secondAttribute="leading" id="55Z-5f-hZc"/>
-                                                                <constraint firstAttribute="trailing" secondItem="5ds-B3-EYx" secondAttribute="trailing" id="CKF-W0-cBy"/>
-                                                                <constraint firstAttribute="bottom" secondItem="5ds-B3-EYx" secondAttribute="bottom" id="Q4G-R2-ZDJ"/>
-                                                                <constraint firstItem="5ds-B3-EYx" firstAttribute="top" secondItem="aZx-XZ-jEw" secondAttribute="top" id="wvm-MM-hwf"/>
+                                                                <constraint firstAttribute="trailing" secondItem="RrK-lo-Brm" secondAttribute="trailing" constant="5" id="BYx-oh-s9f"/>
+                                                                <constraint firstAttribute="bottom" secondItem="RrK-lo-Brm" secondAttribute="bottom" constant="5" id="Kfs-60-91Q"/>
+                                                                <constraint firstItem="RrK-lo-Brm" firstAttribute="leading" secondItem="xMM-Gq-lAl" secondAttribute="leading" constant="5" id="Kum-sv-nU1"/>
                                                             </constraints>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                                    <real key="value" value="5"/>
+                                                                    <integer key="value" value="10"/>
                                                                 </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpu-pY-XpV">
-                                                            <rect key="frame" x="92" y="15" width="30" height="30"/>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWW-38-GXg" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                            <rect key="frame" x="69" y="10" width="50" height="18"/>
+                                                            <color key="backgroundColor" red="1" green="0.91372549020000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="30" id="Ua9-dq-09R"/>
-                                                                <constraint firstAttribute="height" constant="30" id="i01-DG-rD0"/>
+                                                                <constraint firstAttribute="height" constant="18" id="jgV-jX-PwC"/>
                                                             </constraints>
-                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
-                                                            <state key="normal" image="heart_gray"/>
+                                                            <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="8"/>
+                                                            <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="8" maxY="0.0"/>
+                                                            <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="Dating" image="dating_symbol">
+                                                                <color key="titleColor" red="1" green="0.31372549020000001" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </state>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="9"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYh-LT-0lu" customClass="AnimatableButton" customModule="IBAnimatable">
+                                                            <rect key="frame" x="10" y="10" width="32" height="16"/>
+                                                            <color key="backgroundColor" name="AppOrange"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="16" id="OCI-aR-WgX"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="8"/>
+                                                            <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                            <state key="normal" title="online"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="8"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </button>
                                                     </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="aZx-XZ-jEw" secondAttribute="trailing" constant="5" id="70n-K7-xQd"/>
-                                                        <constraint firstItem="677-FE-j6l" firstAttribute="leading" secondItem="8XY-80-H8V" secondAttribute="leading" constant="5" id="JJq-1h-o86"/>
-                                                        <constraint firstAttribute="trailing" secondItem="677-FE-j6l" secondAttribute="trailing" constant="5" id="JuW-6h-g1R"/>
-                                                        <constraint firstAttribute="bottom" secondItem="aZx-XZ-jEw" secondAttribute="bottom" id="JvS-yB-pbE"/>
-                                                        <constraint firstItem="Kpu-pY-XpV" firstAttribute="top" secondItem="677-FE-j6l" secondAttribute="top" constant="10" id="Kla-Ai-6CM"/>
-                                                        <constraint firstItem="677-FE-j6l" firstAttribute="top" secondItem="8XY-80-H8V" secondAttribute="top" constant="5" id="XYF-WT-msM"/>
-                                                        <constraint firstItem="677-FE-j6l" firstAttribute="trailing" secondItem="Kpu-pY-XpV" secondAttribute="trailing" constant="10" id="p4n-aR-yQA"/>
-                                                        <constraint firstItem="aZx-XZ-jEw" firstAttribute="top" secondItem="677-FE-j6l" secondAttribute="bottom" constant="5" id="tUn-ya-cw5"/>
-                                                        <constraint firstItem="aZx-XZ-jEw" firstAttribute="leading" secondItem="8XY-80-H8V" secondAttribute="leading" constant="5" id="zVa-oG-OpO"/>
+                                                        <constraint firstAttribute="trailing" secondItem="CWW-38-GXg" secondAttribute="trailing" constant="10" id="0aZ-Bn-VPh"/>
+                                                        <constraint firstAttribute="trailing" secondItem="YNB-wf-yUM" secondAttribute="trailing" id="3Hv-5I-0jd"/>
+                                                        <constraint firstItem="YNB-wf-yUM" firstAttribute="bottom" secondItem="xMM-Gq-lAl" secondAttribute="bottom" id="6sK-ag-zVb"/>
+                                                        <constraint firstItem="YNB-wf-yUM" firstAttribute="leading" secondItem="aF9-r5-2Rf" secondAttribute="leading" id="6x3-jV-ejz"/>
+                                                        <constraint firstItem="CWW-38-GXg" firstAttribute="top" secondItem="aF9-r5-2Rf" secondAttribute="top" constant="10" id="AgA-Ri-jiL"/>
+                                                        <constraint firstItem="YNB-wf-yUM" firstAttribute="top" secondItem="aF9-r5-2Rf" secondAttribute="top" id="Ea3-HR-963"/>
+                                                        <constraint firstItem="XYh-LT-0lu" firstAttribute="top" secondItem="aF9-r5-2Rf" secondAttribute="top" constant="10" id="QJZ-xj-W6Z"/>
+                                                        <constraint firstItem="YNB-wf-yUM" firstAttribute="trailing" secondItem="xMM-Gq-lAl" secondAttribute="trailing" id="SGX-bc-BON"/>
+                                                        <constraint firstItem="XYh-LT-0lu" firstAttribute="leading" secondItem="aF9-r5-2Rf" secondAttribute="leading" constant="10" id="Ue8-1U-xbd"/>
+                                                        <constraint firstItem="xMM-Gq-lAl" firstAttribute="top" secondItem="aF9-r5-2Rf" secondAttribute="top" id="hzX-y5-nuu"/>
+                                                        <constraint firstAttribute="bottom" secondItem="YNB-wf-yUM" secondAttribute="bottom" id="uq0-JW-tlN"/>
+                                                        <constraint firstItem="xMM-Gq-lAl" firstAttribute="leading" secondItem="YNB-wf-yUM" secondAttribute="leading" id="usj-ux-4tP"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="15"/>
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
-                                                            <real key="value" value="0.0"/>
+                                                            <real key="value" value="0.5"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
                                                             <point key="value" x="0.0" y="0.0"/>
                                                         </userDefinedRuntimeAttribute>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                            <real key="value" value="0.0"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
-                                                            <real key="value" value="0.0"/>
-                                                        </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="8XY-80-H8V" secondAttribute="trailing" id="2wA-b8-Zx3"/>
-                                                <constraint firstItem="8XY-80-H8V" firstAttribute="top" secondItem="Jf2-6h-6Ql" secondAttribute="top" id="5mo-6N-Vc3"/>
-                                                <constraint firstAttribute="bottom" secondItem="8XY-80-H8V" secondAttribute="bottom" constant="5" id="DCo-zh-3iI"/>
-                                                <constraint firstItem="8XY-80-H8V" firstAttribute="leading" secondItem="Jf2-6h-6Ql" secondAttribute="leading" id="hmb-ID-2Ma"/>
+                                                <constraint firstAttribute="bottom" secondItem="aF9-r5-2Rf" secondAttribute="bottom" id="EWj-sd-xQs"/>
+                                                <constraint firstItem="aF9-r5-2Rf" firstAttribute="leading" secondItem="RWt-Xk-Hq5" secondAttribute="leading" id="Np9-7R-x2I"/>
+                                                <constraint firstItem="aF9-r5-2Rf" firstAttribute="top" secondItem="RWt-Xk-Hq5" secondAttribute="top" id="V0K-lU-Cm3"/>
+                                                <constraint firstItem="aF9-r5-2Rf" firstAttribute="trailing" secondItem="RWt-Xk-Hq5" secondAttribute="trailingMargin" id="urq-e1-lj9"/>
                                             </constraints>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                    <real key="value" value="5"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <size key="customSize" width="137" height="154"/>
                                         <connections>
-                                            <outlet property="amountLbl" destination="5sQ-Zi-fpV" id="3nq-FH-VWj"/>
-                                            <outlet property="categoryBtn" destination="Jka-yH-ZsM" id="fW7-Bg-igS"/>
-                                            <outlet property="experienceImg" destination="677-FE-j6l" id="rbA-Ji-yEP"/>
-                                            <outlet property="likeBtn" destination="Kpu-pY-XpV" id="kXK-wg-vEh"/>
-                                            <outlet property="nameLbl" destination="KmK-zL-CNe" id="Igf-Cj-zyh"/>
-                                            <outlet property="typeBtn" destination="F3t-dh-IJv" id="C1U-SG-0RC"/>
+                                            <outlet property="amountLbl" destination="5xs-Ip-vNX" id="UN9-yP-wPr"/>
+                                            <outlet property="categoryBtn" destination="CWW-38-GXg" id="2VL-le-hLy"/>
+                                            <outlet property="experienceImg" destination="YNB-wf-yUM" id="EcH-2W-vPZ"/>
+                                            <outlet property="likeBtn" destination="gdz-P5-8cX" id="5Sn-XF-wOo"/>
+                                            <outlet property="nameLbl" destination="Ycu-u1-5qu" id="GFZ-oV-MtS"/>
+                                            <outlet property="typeBtn" destination="XYh-LT-0lu" id="CAf-Ih-rXy"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -5680,7 +5621,7 @@ New york</string>
                                 </connections>
                             </collectionView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4h-09-urj">
-                                <rect key="frame" x="182.5" y="446.5" width="49.5" height="17.5"/>
+                                <rect key="frame" x="181.5" y="447" width="51.5" height="16.5"/>
                                 <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="14"/>
                                 <color key="textColor" name="#190000"/>
                                 <nil key="highlightedColor"/>
@@ -5952,14 +5893,14 @@ New york</string>
         <designable name="3FP-GI-uuw">
             <size key="intrinsicContentSize" width="27" height="27"/>
         </designable>
+        <designable name="48A-jm-7yd">
+            <size key="intrinsicContentSize" width="50" height="10"/>
+        </designable>
         <designable name="5JA-YE-iJB">
             <size key="intrinsicContentSize" width="27" height="27"/>
         </designable>
         <designable name="5kW-SL-PqJ">
             <size key="intrinsicContentSize" width="38" height="32"/>
-        </designable>
-        <designable name="677-FE-j6l">
-            <size key="intrinsicContentSize" width="74" height="72"/>
         </designable>
         <designable name="6aj-aK-Z4R">
             <size key="intrinsicContentSize" width="47" height="32"/>
@@ -5997,8 +5938,11 @@ New york</string>
         <designable name="Btc-bm-pNF">
             <size key="intrinsicContentSize" width="149" height="114"/>
         </designable>
-        <designable name="Ch5-8u-ANq">
-            <size key="intrinsicContentSize" width="40" height="14"/>
+        <designable name="CWW-38-GXg">
+            <size key="intrinsicContentSize" width="50" height="10"/>
+        </designable>
+        <designable name="Dmy-w6-9N6">
+            <size key="intrinsicContentSize" width="32" height="10"/>
         </designable>
         <designable name="Dre-kw-bim">
             <size key="intrinsicContentSize" width="48" height="48"/>
@@ -6006,20 +5950,17 @@ New york</string>
         <designable name="E9u-mZ-JgR">
             <size key="intrinsicContentSize" width="94.5" height="21"/>
         </designable>
-        <designable name="F3t-dh-IJv">
-            <size key="intrinsicContentSize" width="40" height="14"/>
-        </designable>
         <designable name="FGX-ao-CCC">
             <size key="intrinsicContentSize" width="27" height="27"/>
+        </designable>
+        <designable name="GBw-FC-vRj">
+            <size key="intrinsicContentSize" width="74" height="72"/>
         </designable>
         <designable name="HqO-h8-qLP">
             <size key="intrinsicContentSize" width="27" height="27"/>
         </designable>
         <designable name="IF5-1F-cSe">
             <size key="intrinsicContentSize" width="27" height="27"/>
-        </designable>
-        <designable name="Jka-yH-ZsM">
-            <size key="intrinsicContentSize" width="66" height="18"/>
         </designable>
         <designable name="Lpg-Ff-lN7">
             <size key="intrinsicContentSize" width="62" height="33.5"/>
@@ -6031,7 +5972,7 @@ New york</string>
             <size key="intrinsicContentSize" width="77.5" height="77.5"/>
         </designable>
         <designable name="Rbx-bp-Ic3">
-            <size key="intrinsicContentSize" width="91" height="16"/>
+            <size key="intrinsicContentSize" width="86" height="14"/>
         </designable>
         <designable name="RzY-Ex-zii">
             <size key="intrinsicContentSize" width="38" height="32"/>
@@ -6051,8 +5992,14 @@ New york</string>
         <designable name="XAI-M8-Shr">
             <size key="intrinsicContentSize" width="27" height="27"/>
         </designable>
+        <designable name="XYh-LT-0lu">
+            <size key="intrinsicContentSize" width="32" height="10"/>
+        </designable>
         <designable name="Y6i-kj-alg">
             <size key="intrinsicContentSize" width="70.5" height="33.5"/>
+        </designable>
+        <designable name="YNB-wf-yUM">
+            <size key="intrinsicContentSize" width="74" height="72"/>
         </designable>
         <designable name="YRa-24-X9i">
             <size key="intrinsicContentSize" width="27" height="27"/>
@@ -6081,9 +6028,6 @@ New york</string>
         <designable name="fvW-eS-Faj">
             <size key="intrinsicContentSize" width="94.5" height="21"/>
         </designable>
-        <designable name="g8s-5C-pn0">
-            <size key="intrinsicContentSize" width="66" height="18"/>
-        </designable>
         <designable name="gaI-fa-73u">
             <size key="intrinsicContentSize" width="47" height="32"/>
         </designable>
@@ -6094,9 +6038,6 @@ New york</string>
             <size key="intrinsicContentSize" width="138.5" height="18.5"/>
         </designable>
         <designable name="iOZ-VB-HzN">
-            <size key="intrinsicContentSize" width="74" height="72"/>
-        </designable>
-        <designable name="isJ-bf-gJe">
             <size key="intrinsicContentSize" width="74" height="72"/>
         </designable>
         <designable name="jnW-yL-8Lb">
@@ -6112,7 +6053,7 @@ New york</string>
             <size key="intrinsicContentSize" width="138.5" height="18.5"/>
         </designable>
         <designable name="mtd-dM-Swk">
-            <size key="intrinsicContentSize" width="75" height="18"/>
+            <size key="intrinsicContentSize" width="78" height="17"/>
         </designable>
         <designable name="p3M-AW-vJK">
             <size key="intrinsicContentSize" width="160" height="140"/>
@@ -6151,7 +6092,7 @@ New york</string>
             <size key="intrinsicContentSize" width="43" height="34"/>
         </designable>
         <designable name="zxD-Ra-10S">
-            <size key="intrinsicContentSize" width="169" height="33"/>
+            <size key="intrinsicContentSize" width="179" height="32"/>
         </designable>
     </designables>
     <resources>
@@ -6199,7 +6140,7 @@ New york</string>
         <image name="search_ex" width="17" height="17"/>
         <image name="send_feed" width="50.5" height="50"/>
         <image name="star_pink" width="9" height="9"/>
-        <image name="tick" width="18.5" height="13.5"/>
+        <image name="tick" width="18" height="13.5"/>
         <image name="twitter_profile" width="24" height="24"/>
         <image name="video_img" width="296" height="173"/>
         <image name="website_circle" width="18" height="18"/>
