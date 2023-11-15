@@ -340,7 +340,9 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
         else if collectionView.tag == 3{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ExperienceDetailsCell", for: indexPath) as! ExperienceDetailsCell
             let data = userVM.expDetail?.nearbyExp?[indexPath.row]
-            cell.configureCell(with: userVM.expDetail?.nearbyExp?[indexPath.row])
+            cell.configureCell(with: data)
+            cell.likeBtn.tag = indexPath.row
+            cell.likeBtn.addTarget(self, action: #selector(likeBtnAction(_:)), for: .touchUpInside)
             return cell
         }
         else{
@@ -349,7 +351,12 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
             return cell
         }
     }
-    
+    @objc func likeBtnAction(_ sender:UIButton){
+        let exp = userVM?.expDetail?.nearbyExp?[sender.tag]
+        userVM?.expDetail?.nearbyExp?[sender.tag].favouriteStatus = exp?.favouriteStatus ?? 0 == 1 ? 0 : 1
+        exp?.favouriteStatus ?? 0 == 1 ? userVM.makeUnFavourite(expId: exp?.expID ?? "") : userVM.makeFavourite(expId: exp?.expID ?? "")
+        self.collection_similarExperience.reloadData()
+    }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let data = userVM.expDetail?.expDetail
         if collectionView.tag == 0{

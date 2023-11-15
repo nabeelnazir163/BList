@@ -6079,6 +6079,9 @@ New york</string>
         <designable name="wLI-Ph-1SI">
             <size key="intrinsicContentSize" width="38" height="32"/>
         </designable>
+        <designable name="wWq-uf-b2r">
+            <size key="intrinsicContentSize" width="192" height="34"/>
+        </designable>
         <designable name="wkk-R3-J4A">
             <size key="intrinsicContentSize" width="86" height="16"/>
         </designable>

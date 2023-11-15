@@ -39,6 +39,13 @@ class UBlistBoardVC: BaseClassVC {
             }
         }
     }
+    @IBOutlet weak var postContentTextView         : AnimatedBindingTextView!{
+        didSet{
+            postContentTextView.bind { [unowned self] in
+                userVM.postContent.value = $0
+            }
+        }
+    }
     @IBOutlet weak var addCommentBtn            : UIButton!
     @IBOutlet weak var locationView             : UIView!
     @IBOutlet weak var addPostSV                : UIStackView!
@@ -114,7 +121,7 @@ class UBlistBoardVC: BaseClassVC {
             case .PostContent:
                 let wishListTblHeight = self.wishListTblView.getTableHeight()
                 self.wishListTblHeightConst.constant = wishListTblHeight > 125 ? 250 : wishListTblHeight
-                self.postContentField.text?.removeAll()
+                self.postContentTextView.text?.removeAll()
                 self.userVM.postContent.value.removeAll()
                 self.userVM.postImage = nil
             case .GetComments,.SearchComments:
@@ -152,6 +159,7 @@ class UBlistBoardVC: BaseClassVC {
     @IBAction func sendBtnAction(_ sender:UIButton){
         if !userVM.postContent.value.isEmptyOrWhitespace(){
             userVM.postMsg()
+            commentTblView.reloadData()
         }
         else{
             self.showErrorMessages(message: "Please enter msg to send")

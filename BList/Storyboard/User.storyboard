@@ -718,7 +718,7 @@ Become A Part Of You  Somehow</string>
                                                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GQM-oo-VO5" customClass="AnimatableView" customModule="IBAnimatable">
                                                                                 <rect key="frame" x="0.0" y="87.5" width="315" height="140"/>
                                                                                 <subviews>
-                                                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="167-eq-Po1" customClass="AnimatableTextView" customModule="IBAnimatable">
+                                                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="167-eq-Po1" customClass="AnimatedBindingTextView" customModule="BList" customModuleProvider="target">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="315" height="140"/>
                                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                                         <color key="textColor" systemColor="labelColor"/>
@@ -1354,10 +1354,9 @@ Become A Part Of You  Somehow</string>
                         <outlet property="locationLbl" destination="Ad0-RE-RkH" id="1XP-H5-Idx"/>
                         <outlet property="locationView" destination="1gF-a0-RJn" id="aMf-IS-kw0"/>
                         <outlet property="pageControlView" destination="g7T-sO-4ut" id="DhF-e0-Nxg"/>
-                        <outlet property="postContentField" destination="lrV-7i-ky5" id="6xw-d4-2wI"/>
+                        <outlet property="postContentTextView" destination="167-eq-Po1" id="NYS-3v-JkJ"/>
                         <outlet property="scrollView" destination="KHX-Hd-3qk" id="Pvm-Te-84Q"/>
                         <outlet property="searchField" destination="Ix0-m3-B8a" id="BVi-NT-oLW"/>
-                        <outlet property="searchTextView" destination="167-eq-Po1" id="eSU-AB-efM"/>
                         <outlet property="searchView" destination="MHe-eG-iqk" id="114-tz-5fj"/>
                         <outlet property="updateCollView" destination="Zsi-M8-zSy" id="yzR-dG-0Wb"/>
                         <outlet property="wishListTblHeightConst" destination="JcH-gM-fsK" id="fbf-h9-9gX"/>

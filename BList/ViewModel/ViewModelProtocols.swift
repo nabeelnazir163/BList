@@ -51,6 +51,19 @@ class AnimatedBindingText: AnimatableTextField {
         textChanged(textField.text!)
     }
 }
+
+class AnimatedBindingTextView: AnimatableTextView, UITextViewDelegate {
+    
+    var textChanged :(String) -> () = { _ in }
+    func bind(callback :@escaping (String) -> ()) {
+        textChanged = callback
+        self.delegate = self
+    }
+  
+    func textViewDidChange(_ textView :UITextView) {
+        textChanged(textView.text!)
+    }
+}
 // MARK:- Creating Binding UI for the UITextField
 class MonthYearBindingTextField: MonthYearTextField {
     
