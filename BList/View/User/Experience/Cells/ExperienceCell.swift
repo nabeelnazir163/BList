@@ -52,13 +52,13 @@ extension ExperienceCell:UICollectionViewDelegate,UICollectionViewDataSource,UIC
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         if itemIndex == 1{
-            return CGSize(width: 180, height:280)
+            return CGSize(width: 299.0, height:210)
         }
         else if itemIndex == 2{
-            return CGSize(width: 220, height: 280)
+            return CGSize(width: 170, height: 130)
         }
         else{
-            return CGSize(width: (collectionView.frame.width-50)/2, height: 280)
+            return CGSize(width: (collectionView.frame.width-50)/2, height: 170)
         }
         
     }

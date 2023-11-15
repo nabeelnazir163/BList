@@ -164,10 +164,10 @@ extension AllCategoryVC:UITableViewDataSource,UITableViewDelegate{
             return 58
         }
         if indexPath.section == 1{
-            return 280
+            return 210
         }
         if indexPath.section == 2{
-            return 280
+            return 130
         }
         return UITableView.automaticDimension
     }
@@ -203,10 +203,10 @@ extension AllCategoryVC:UITableViewDataSource,UITableViewDelegate{
             cell.layoutIfNeeded()
             cell.collection_Experience.reloadData()
             if indexPath.section == 3 && items.count < 3{
-                cell.layout_collection.constant = 280
+                cell.layout_collection.constant = 175.0
             }
             else{
-                cell.layout_collection.constant = (2.0 * 280)
+                cell.layout_collection.constant = (2.0 * 175)
             }
             cell.setData()
             return cell
