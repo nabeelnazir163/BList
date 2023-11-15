@@ -12,7 +12,7 @@ import IBAnimatable
 class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
     
     // MARK: - OUTLETS
-    @IBOutlet weak var pageControl                 : UIPageControl!
+//    @IBOutlet weak var pageControl                 : UIPageControl!
     @IBOutlet weak var expHostByLbl                : UILabel!
     @IBOutlet weak var userImgview                 : AnimatableImageView!
     @IBOutlet weak var clothingRecomStackView      : UIStackView!
@@ -58,6 +58,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
     @IBOutlet weak var nxtBtn                      : UIButton!
     @IBOutlet weak var ratingCountBtn              : UIButton!
     @IBOutlet weak var createdAt                   : UILabel!
+    @IBOutlet weak var CoverImage                  : UIImageView!
     // MARK: - PROPERTIES
     var selectedExpId   : String = "0"
     weak var userVM     : UserViewModel!
@@ -68,6 +69,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
     var accountType     : AccountType = .user
     var expDetailModel  = DetailModel.data()
     var currentPage     = 0
+    var selectedIndex: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Selected Experience Id: \(selectedExpId)")
@@ -172,7 +174,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
                 nxtBtn.isHidden = true
             }
             createdAt.text = DateConvertor.shared.timeAgo(for: expDetails.createdAt ?? "", dateFormat: .yyyyMMddHHmmss)
-            pageControl.numberOfPages = userImages.count > 1 ? userImages.count : 0
+//            pageControl.numberOfPages = userImages.count > 1 ? userImages.count : 0
             
             if (expDetails.userImage ?? "") != "" {
                 userImgview.setImage(link: expDetails.userImage ?? "", placeholder: "user_dummy")
@@ -286,7 +288,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
             currentPage -= 1
         }
         DispatchQueue.main.async {
-            self.pageControl.currentPage = self.currentPage
+//            self.pageControl.currentPage = self.currentPage
             self.collection_images.scrollToItem(at: IndexPath(item: self.currentPage, section: 0), at: .left, animated: true)
         }
     }
@@ -295,7 +297,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
             currentPage += 1
         }
         DispatchQueue.main.async {
-            self.pageControl.currentPage = self.currentPage
+//            self.pageControl.currentPage = self.currentPage
             self.collection_images.scrollToItem(at: IndexPath(item: self.currentPage, section: 0), at: .right, animated: true)
         }
     }
@@ -325,6 +327,8 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImagesCell", for: indexPath) as! ImagesCell
             let image_Baseurl = BaseURLs.experience_Image.rawValue
             cell.img_top.setImage(link: (image_Baseurl) + userImages[indexPath.row], placeholder: "no_image")
+            CoverImage.setImage(link: (image_Baseurl) + userImages[selectedIndex ?? 0], placeholder: "no_image")
+
             return cell
         }
         else if collectionView.tag == 1 {
@@ -360,7 +364,7 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let data = userVM.expDetail?.expDetail
         if collectionView.tag == 0{
-            return CGSize(width: collectionView.frame.size.width, height: collectionView.frame.size.height)
+            return CGSize(width: 70, height: 70)
         } else if collectionView.tag == 1{
             let width = (collectionView.frame.size.width - 10) / 2
             var height:Double = 50
@@ -396,7 +400,7 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
         if collectionView.tag == 0{
             currentPage = indexPath.row
             DispatchQueue.main.async {
-                self.pageControl.currentPage = indexPath.row
+//                self.pageControl.currentPage = indexPath.row
                 if self.currentPage == 0 {
                     self.prevBtn.setImage(UIImage(named: "prev_Grey"), for: .normal)
                     self.nxtBtn.setImage(UIImage(named: "nxt_White"), for: .normal)
@@ -412,7 +416,10 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
         }
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if collectionView == collection_similarExperience {
+        if collectionView == collection_images {
+            selectedIndex = indexPath.row
+            collection_images.reloadData()
+        } else if collectionView == collection_similarExperience {
             let vc = UIStoryboard.loadNewlyExperienceDetail()
             vc.userVM = userVM
             vc.userVM.expIds.append(userVM.expDetail?.nearbyExp?[indexPath.row].expID ?? "")
