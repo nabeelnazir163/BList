@@ -261,7 +261,7 @@ extension CCalendarVC:UICollectionViewDataSource,UICollectionViewDelegate,UIColl
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = (self.collection_experience.frame.width - 15)/2
-        return  CGSize(width: width, height: 250)
+        return  CGSize(width: width, height: 200)
     }
     
 }

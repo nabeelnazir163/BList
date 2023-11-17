@@ -186,7 +186,7 @@ extension CreatorExperienceTabVC:UICollectionViewDelegate,UICollectionViewDataSo
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = (self.collection_creator.frame.size.width - 15) / 2
-        return CGSize(width: width, height: 230)
+        return CGSize(width: width, height: 180)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let data = creatorVM.experiences?[indexPath.row]
