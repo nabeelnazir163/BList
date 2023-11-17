@@ -54,8 +54,6 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
     @IBOutlet weak var locationsLbl                : UILabel!
     @IBOutlet weak var expDetailsContainer         : UIView!
     @IBOutlet weak var messageBtn                  : UIButton!
-    @IBOutlet weak var prevBtn                     : UIButton!
-    @IBOutlet weak var nxtBtn                      : UIButton!
     @IBOutlet weak var ratingCountBtn              : UIButton!
     @IBOutlet weak var createdAt                   : UILabel!
     @IBOutlet weak var CoverImage                  : UIImageView!
@@ -95,9 +93,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
         showCurrentLocation()
         messageBtn.isHidden = AppSettings.UserInfo?.role == "2"
         messageBtn.addTarget(self, action: #selector(messageBtnAction(_:)), for: .touchUpInside)
-        prevBtn.addTarget(self, action: #selector(prevAction(_:)), for: .touchUpInside)
-        nxtBtn.addTarget(self, action: #selector(nxtAction(_:)), for: .touchUpInside)
-        
+      
     }
     @objc func trackAction(_ sender:UIButton) {
         let vc = UIStoryboard.loadMapVC()
@@ -166,13 +162,6 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
         if let exp = self.userVM.expDetail, let expDetails = exp.expDetail {
             
             userImages = (expDetails.images ?? "").components(separatedBy: ",")
-            if userImages.count > 1 {
-                prevBtn.isHidden = false
-                nxtBtn.isHidden = false
-            } else {
-                prevBtn.isHidden = true
-                nxtBtn.isHidden = true
-            }
             createdAt.text = DateConvertor.shared.timeAgo(for: expDetails.createdAt ?? "", dateFormat: .yyyyMMddHHmmss)
 //            pageControl.numberOfPages = userImages.count > 1 ? userImages.count : 0
             
@@ -181,7 +170,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
             } else {
                 userImgview.image = UIImage(named: "user_dummy")
             }
-            expHostByLbl.text = "Experience hosted by \(expDetails.username ?? "")"
+            expHostByLbl.text = "\(expDetails.username ?? "")"
             expNameLbl.text = expDetails.expName
             if expDetails.expDate ?? "no" == "yes"{
                 startDateLbl.text = DateConvertor.shared.convert(dateInString: expDetails.expStartDate ?? "", from: .yyyyMMdd, to: .EEEddMMM).dateInString
@@ -283,24 +272,8 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
         userVM.expIds.removeLast()
         self.navigationController?.popViewController(animated: true)
     }
-    @objc func prevAction(_ sender:UIButton) {
-        if currentPage > 0 {
-            currentPage -= 1
-        }
-        DispatchQueue.main.async {
-//            self.pageControl.currentPage = self.currentPage
-            self.collection_images.scrollToItem(at: IndexPath(item: self.currentPage, section: 0), at: .left, animated: true)
-        }
-    }
-    @objc func nxtAction(_ sender:UIButton) {
-        if currentPage < (userImages.count-1) {
-            currentPage += 1
-        }
-        DispatchQueue.main.async {
-//            self.pageControl.currentPage = self.currentPage
-            self.collection_images.scrollToItem(at: IndexPath(item: self.currentPage, section: 0), at: .right, animated: true)
-        }
-    }
+    
+  
 }
 // MARK: - COLLECTIONVIEW DELEGATE & DATASOURCE METHODS
 extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -326,7 +299,7 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
         if collectionView.tag == 0 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImagesCell", for: indexPath) as! ImagesCell
             let image_Baseurl = BaseURLs.experience_Image.rawValue
-            cell.img_top.setImage(link: (image_Baseurl) + userImages[indexPath.row], placeholder: "no_image")
+            cell.img_top.setImage(link: (image_Baseurl) + userImages[indexPath.row])
             CoverImage.setImage(link: (image_Baseurl) + userImages[selectedIndex ?? 0], placeholder: "no_image")
 
             return cell
@@ -396,25 +369,7 @@ extension NewlyExperienceDetail: UICollectionViewDataSource, UICollectionViewDel
         }
     }
     
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if collectionView.tag == 0{
-            currentPage = indexPath.row
-            DispatchQueue.main.async {
-//                self.pageControl.currentPage = indexPath.row
-                if self.currentPage == 0 {
-                    self.prevBtn.setImage(UIImage(named: "prev_Grey"), for: .normal)
-                    self.nxtBtn.setImage(UIImage(named: "nxt_White"), for: .normal)
-                } else if self.currentPage == (self.userImages.count - 1) {
-                    self.prevBtn.setImage(UIImage(named: "prev_White"), for: .normal)
-                    self.nxtBtn.setImage(UIImage(named: "nxt_Grey"), for: .normal)
-                } else {
-                    self.prevBtn.setImage(UIImage(named: "prev_White"), for: .normal)
-                    self.nxtBtn.setImage(UIImage(named: "nxt_White"), for: .normal)
-                }
-
-            }
-        }
-    }
+   
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView == collection_images {
             selectedIndex = indexPath.row
