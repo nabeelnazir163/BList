@@ -170,7 +170,7 @@ class NewlyExperienceDetail: BaseClassVC,MKMapViewDelegate {
             } else {
                 userImgview.image = UIImage(named: "user_dummy")
             }
-            expHostByLbl.text = "\(expDetails.username ?? "")"
+            expHostByLbl.text = "by \(expDetails.username ?? "")"
             expNameLbl.text = expDetails.expName
             if expDetails.expDate ?? "no" == "yes"{
                 startDateLbl.text = DateConvertor.shared.convert(dateInString: expDetails.expStartDate ?? "", from: .yyyyMMdd, to: .EEEddMMM).dateInString

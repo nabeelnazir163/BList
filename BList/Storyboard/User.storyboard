@@ -2669,13 +2669,13 @@ Become A Part Of You  Somehow</string>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="vsD-pc-Ea0">
                                                                     <rect key="frame" x="65" y="15" width="259" height="40"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Christopher Alvarenga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqw-05-4FJ">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Christopher Alvarenga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqw-05-4FJ">
                                                                             <rect key="frame" x="0.0" y="0.0" width="259" height="19.5"/>
                                                                             <fontDescription key="fontDescription" name="Cabin-BoldItalic" family="Cabin" pointSize="16"/>
                                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" text="1h ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfL-nU-U7s">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1h ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfL-nU-U7s">
                                                                             <rect key="frame" x="0.0" y="22.5" width="259" height="17.5"/>
                                                                             <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="14"/>
                                                                             <color key="textColor" name="#989595"/>
@@ -5145,13 +5145,13 @@ how can we help ?</string>
                                                                                     <rect key="frame" x="0.0" y="83" width="312" height="15"/>
                                                                                     <subviews>
                                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" text="$ 500" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yey-J8-cSm">
-                                                                                            <rect key="frame" x="0.0" y="0.0" width="254.5" height="15"/>
+                                                                                            <rect key="frame" x="0.0" y="0.0" width="259.5" height="15"/>
                                                                                             <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="12"/>
                                                                                             <color key="textColor" name="AppOrange"/>
                                                                                             <nil key="highlightedColor"/>
                                                                                         </label>
                                                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXH-mW-yaF" customClass="AnimatableButton" customModule="IBAnimatable">
-                                                                                            <rect key="frame" x="264.5" y="0.0" width="47.5" height="15"/>
+                                                                                            <rect key="frame" x="269.5" y="0.0" width="42.5" height="15"/>
                                                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                             <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="8"/>
                                                                                             <inset key="titleEdgeInsets" minX="-2" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -6660,13 +6660,13 @@ verification badge</string>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6sD-d7-Ldg">
                                                             <rect key="frame" x="42" y="17" width="138.5" height="64"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="John Deo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyV-46-kV5">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Deo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyV-46-kV5">
                                                                     <rect key="frame" x="0.0" y="0.0" width="138.5" height="19.5"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="16"/>
                                                                     <color key="textColor" name="#252634_"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="****************5082" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4P-qb-mL1">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="****************5082" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p4P-qb-mL1">
                                                                     <rect key="frame" x="0.0" y="24.5" width="138.5" height="18.5"/>
                                                                     <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="15"/>
                                                                     <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -14504,9 +14504,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         </scene>
     </scenes>
     <designables>
-        <designable name="0MQ-cZ-hKh">
-            <size key="intrinsicContentSize" width="138.5" height="19.5"/>
-        </designable>
         <designable name="1kC-GX-bvD">
             <size key="intrinsicContentSize" width="82" height="91"/>
         </designable>
@@ -14525,20 +14522,11 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="2xM-Ti-o79">
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
-        <designable name="3oc-eQ-V5C">
-            <size key="intrinsicContentSize" width="142.5" height="18.5"/>
-        </designable>
-        <designable name="3uC-eB-GjK">
-            <size key="intrinsicContentSize" width="94.5" height="23.5"/>
-        </designable>
         <designable name="4DU-0M-gvr">
             <size key="intrinsicContentSize" width="52" height="34"/>
         </designable>
         <designable name="4Ga-2t-J95">
             <size key="intrinsicContentSize" width="80.5" height="13"/>
-        </designable>
-        <designable name="4Sd-n1-ex9">
-            <size key="intrinsicContentSize" width="50" height="23.5"/>
         </designable>
         <designable name="4mY-GO-rCI">
             <size key="intrinsicContentSize" width="136" height="19.5"/>
@@ -14616,7 +14604,7 @@ typesetting industry. Lorem Ipsum has been the industry's
             <size key="intrinsicContentSize" width="74" height="30"/>
         </designable>
         <designable name="GXH-mW-yaF">
-            <size key="intrinsicContentSize" width="47.5" height="12"/>
+            <size key="intrinsicContentSize" width="42.5" height="11.5"/>
         </designable>
         <designable name="Gr0-D3-WmD">
             <size key="intrinsicContentSize" width="30" height="30"/>
@@ -14633,23 +14621,11 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="IeU-fZ-Sak">
             <size key="intrinsicContentSize" width="45" height="34"/>
         </designable>
-        <designable name="Ix0-m3-B8a">
-            <size key="intrinsicContentSize" width="106.5" height="19"/>
-        </designable>
-        <designable name="JLG-1c-kev">
-            <size key="intrinsicContentSize" width="50" height="23.5"/>
-        </designable>
         <designable name="K6K-7K-lsp">
             <size key="intrinsicContentSize" width="66" height="18"/>
         </designable>
         <designable name="K95-HR-sHa">
             <size key="intrinsicContentSize" width="41" height="32"/>
-        </designable>
-        <designable name="KBz-xj-ixa">
-            <size key="intrinsicContentSize" width="148" height="19.5"/>
-        </designable>
-        <designable name="KQn-Zh-bTS">
-            <size key="intrinsicContentSize" width="114" height="23.5"/>
         </designable>
         <designable name="LFx-5l-bnR">
             <size key="intrinsicContentSize" width="37" height="34"/>
@@ -14690,17 +14666,11 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="OZQ-1f-r43">
             <size key="intrinsicContentSize" width="19.5" height="22"/>
         </designable>
-        <designable name="Oby-lP-Xc0">
-            <size key="intrinsicContentSize" width="54" height="34"/>
-        </designable>
         <designable name="OqF-bG-k40">
             <size key="intrinsicContentSize" width="66" height="30"/>
         </designable>
         <designable name="P6P-nG-08w">
             <size key="intrinsicContentSize" width="30" height="34"/>
-        </designable>
-        <designable name="Q4L-3C-TPA">
-            <size key="intrinsicContentSize" width="106" height="18.5"/>
         </designable>
         <designable name="R0e-Py-jFD">
             <size key="intrinsicContentSize" width="76" height="71"/>
@@ -14711,9 +14681,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="RNY-6b-uQ2">
             <size key="intrinsicContentSize" width="30" height="30"/>
         </designable>
-        <designable name="RZj-Qo-fhT">
-            <size key="intrinsicContentSize" width="70.5" height="23.5"/>
-        </designable>
         <designable name="Ra3-Lk-X66">
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
@@ -14722,9 +14689,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         </designable>
         <designable name="S6g-uG-06g">
             <size key="intrinsicContentSize" width="96" height="31"/>
-        </designable>
-        <designable name="SOK-MK-sAj">
-            <size key="intrinsicContentSize" width="79.5" height="17.5"/>
         </designable>
         <designable name="SWR-Rz-NLM">
             <size key="intrinsicContentSize" width="30" height="32"/>
@@ -14768,20 +14732,11 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="Y63-Eo-vkw">
             <size key="intrinsicContentSize" width="53.5" height="16.5"/>
         </designable>
-        <designable name="YNW-Ak-m4J">
-            <size key="intrinsicContentSize" width="88" height="22"/>
-        </designable>
         <designable name="ZTh-RE-Hqf">
             <size key="intrinsicContentSize" width="84.5" height="22.5"/>
         </designable>
-        <designable name="ZWc-J9-Bti">
-            <size key="intrinsicContentSize" width="128" height="18.5"/>
-        </designable>
         <designable name="Zuc-Vp-6PV">
             <size key="intrinsicContentSize" width="28" height="15"/>
-        </designable>
-        <designable name="blE-2T-p6c">
-            <size key="intrinsicContentSize" width="49.5" height="23.5"/>
         </designable>
         <designable name="cCn-7t-eef">
             <size key="intrinsicContentSize" width="35" height="23.5"/>
@@ -14792,15 +14747,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="cyW-hP-F16">
             <size key="intrinsicContentSize" width="45" height="45"/>
         </designable>
-        <designable name="d8G-ru-8Y2">
-            <size key="intrinsicContentSize" width="54" height="34"/>
-        </designable>
-        <designable name="dCE-Zh-eEm">
-            <size key="intrinsicContentSize" width="113.5" height="18.5"/>
-        </designable>
-        <designable name="dli-nJ-STq">
-            <size key="intrinsicContentSize" width="71.5" height="23.5"/>
-        </designable>
         <designable name="dxj-cB-GUw">
             <size key="intrinsicContentSize" width="30" height="30"/>
         </designable>
@@ -14810,17 +14756,11 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="eWA-d2-bmy">
             <size key="intrinsicContentSize" width="225" height="225"/>
         </designable>
-        <designable name="ea1-Ez-co4">
-            <size key="intrinsicContentSize" width="88" height="18.5"/>
-        </designable>
         <designable name="evi-gn-cax">
             <size key="intrinsicContentSize" width="80" height="60"/>
         </designable>
         <designable name="eye-iC-VuR">
             <size key="intrinsicContentSize" width="296" height="173"/>
-        </designable>
-        <designable name="f7D-X8-LC7">
-            <size key="intrinsicContentSize" width="192" height="34"/>
         </designable>
         <designable name="foR-bO-YpU">
             <size key="intrinsicContentSize" width="50" height="23.5"/>
@@ -14830,9 +14770,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         </designable>
         <designable name="gAU-Bd-rnN">
             <size key="intrinsicContentSize" width="58.5" height="19.5"/>
-        </designable>
-        <designable name="gSO-Nm-1OP">
-            <size key="intrinsicContentSize" width="89" height="23.5"/>
         </designable>
         <designable name="gcn-aP-dy4">
             <size key="intrinsicContentSize" width="5" height="16"/>
@@ -14867,15 +14804,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="keo-DK-QC9">
             <size key="intrinsicContentSize" width="139" height="16"/>
         </designable>
-        <designable name="lDq-rL-c5x">
-            <size key="intrinsicContentSize" width="100.5" height="14"/>
-        </designable>
-        <designable name="lrV-7i-ky5">
-            <size key="intrinsicContentSize" width="247" height="18.5"/>
-        </designable>
-        <designable name="lzg-MZ-AJJ">
-            <size key="intrinsicContentSize" width="100.5" height="23.5"/>
-        </designable>
         <designable name="mZV-GI-IVo">
             <size key="intrinsicContentSize" width="48" height="48"/>
         </designable>
@@ -14893,9 +14821,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         </designable>
         <designable name="pqI-mc-F1j">
             <size key="intrinsicContentSize" width="149" height="114"/>
-        </designable>
-        <designable name="psv-g3-jll">
-            <size key="intrinsicContentSize" width="158" height="23.5"/>
         </designable>
         <designable name="qEG-8Q-8T6">
             <size key="intrinsicContentSize" width="41" height="32"/>
@@ -14941,9 +14866,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         </designable>
         <designable name="tVp-z7-CcZ">
             <size key="intrinsicContentSize" width="48" height="48"/>
-        </designable>
-        <designable name="twk-zP-ly8">
-            <size key="intrinsicContentSize" width="124" height="18.5"/>
         </designable>
         <designable name="txK-CZ-DEs">
             <size key="intrinsicContentSize" width="48" height="31"/>
@@ -14996,15 +14918,6 @@ typesetting industry. Lorem Ipsum has been the industry's
         <designable name="y0S-RF-19i">
             <size key="intrinsicContentSize" width="70.5" height="23.5"/>
         </designable>
-        <designable name="yVf-dG-uMw">
-            <size key="intrinsicContentSize" width="167" height="23.5"/>
-        </designable>
-        <designable name="ypd-s3-S9c">
-            <size key="intrinsicContentSize" width="42" height="23.5"/>
-        </designable>
-        <designable name="yse-1q-Hcg">
-            <size key="intrinsicContentSize" width="151" height="23.5"/>
-        </designable>
     </designables>
     <resources>
         <image name="Adventure" width="160" height="140"/>
@@ -15021,7 +14934,7 @@ typesetting industry. Lorem Ipsum has been the industry's
         <image name="blist_small_logo" width="45" height="45"/>
         <image name="board" width="14" height="19"/>
         <image name="board_active" width="14" height="19"/>
-        <image name="calendar" width="17" height="17"/>
+        <image name="calendar" width="13" height="13"/>
         <image name="calendar_white" width="12" height="12"/>
         <image name="check" width="19.5" height="15"/>
         <image name="checkedProfile" width="10.5" height="8"/>
@@ -15108,7 +15021,7 @@ typesetting industry. Lorem Ipsum has been the industry's
         <image name="send_postdetail" width="12.5" height="12.5"/>
         <image name="share" width="14.5" height="16.5"/>
         <image name="smile" width="17.5" height="17.5"/>
-        <image name="star" width="16.5" height="12"/>
+        <image name="star" width="11.5" height="11.5"/>
         <image name="star_active" width="24" height="23"/>
         <image name="star_empty" width="25" height="24"/>
         <image name="star_pink" width="9" height="9"/>
