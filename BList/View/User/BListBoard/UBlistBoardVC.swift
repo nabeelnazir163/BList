@@ -121,7 +121,8 @@ class UBlistBoardVC: BaseClassVC {
             case .PostContent:
                 let wishListTblHeight = self.wishListTblView.getTableHeight()
                 self.wishListTblHeightConst.constant = wishListTblHeight > 125 ? 250 : wishListTblHeight
-                self.postContentTextView.text?.removeAll()
+                
+                self.postContentField.text?.removeAll()
                 self.userVM.postContent.value.removeAll()
                 self.userVM.postImage = nil
             case .GetComments,.SearchComments:
